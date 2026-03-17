@@ -36,9 +36,59 @@ p {
   font-size: 1em;
   line-height: 1.5;
 }
-/* gusd.CSS 5.02 March 31 2025 by Jan Egil and Borge Refsnes */
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
+
+.counter11::after {
+  font-size:25%;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: bolder;
+  font-family: Inconsolata;  content: counter(count);
+  animation: counter 1s linear infinite alternate;
+  counter-reset: none;
+  animation-iteration-count: 1; /* Plays once */
+  animation-fill-mode: forwards; /* Stops at 100% */
+}
+
+@keyframes counter {
+  0% {
+    counter-increment: count 0;
+  }
+  10% {
+    counter-increment: count 1;
+  }
+  20% {
+    counter-increment: count 2;
+  }
+  30% {
+    counter-increment: count 3;
+  }
+  40% {
+    counter-increment: count 4;
+  }
+  50% {
+    counter-increment: count 5;
+  }
+  60% {
+    counter-increment: count 6;
+  }
+  70% {
+    counter-increment: count 7;
+  }
+  80% {
+    counter-increment: count 8;
+  }
+  90% {
+    counter-increment: count 9;
+  }
+  95% {
+    counter-increment: count 10;
+  }
+  100% {
+    counter-increment: count 11;
+  }
+}
+
+
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,header,main,menu,nav,section{display:block}summary{display:list-item}
 audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
