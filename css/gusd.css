@@ -72,12 +72,12 @@ header {
 .column_lrg {
   float: left;
   width: 75%;
-  padding: 10px;
+  padding: 2%;
 }
 
 .column_xlrg {
   max-width: fit-content;
-  padding: .25%;
+  padding: 2%;
   font-family: "Roboto";
 }
 
@@ -1273,18 +1273,6 @@ img {
 .gusd-bottom {
   bottom: 0
 }
-
-/* .gusd-overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2
-} */
 
 .gusd-display-topleft {
   position: absolute;
