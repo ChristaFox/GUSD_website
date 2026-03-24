@@ -7,6 +7,7 @@
   position: relative;
   z-index: 1;
   vertical-align: middle;
+  height: 140px;
 }
 
 .toolbar {
@@ -41,7 +42,7 @@
   }
 
   ul {
-    list-style: none;
+    /* list-style: none; */
     margin: 0;
     padding: 0;
   }
@@ -217,7 +218,7 @@
 }
 
 .slideshow {
-  list-style: none;
+  list-style: none !important;
 }
 
 .slideshow li span {
@@ -549,7 +550,7 @@ header {
 }
 
 ul {
-  list-style: none;
+  /* list-style: none; */
   /* Remove list bullets */
   padding: 0;
   margin: 0;
@@ -557,7 +558,6 @@ ul {
 
 li {
   padding-left: 16px;
-  list-style-type: none !important;
 }
 
 .bulletted li::before {
@@ -1231,7 +1231,7 @@ img {
 }
 
 .gusd-ul {
-  list-style-type: none;
+  /* list-style-type: none; */
   padding: 0;
   margin: 0
 }
