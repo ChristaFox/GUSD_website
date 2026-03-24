@@ -1,305 +1,878 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Geyserville USD</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-<link rel="stylesheet" href="/css/gusd.css">
 
-<script type="text/javascript" src="jquery-3.3.1.js"></script>
-<script src="/javascript/gusd.js"></script>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+<head>
+    <title>Geyserville USD</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="/css/gusd.css">
+
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="/javascript/gusd.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript">
+
+    dw_Tooltip.defaultProps = {
+      wrapFn: dw_Tooltip.wrapImageOverText // or dw_Tooltip.wrapTextOverImage
+    }
+
+    dw_Tooltip.content_vars = {
+      L1: {
+        caption: 'Locate Sales Order Screen',
+        img: 'img/toc_icon_50x50.png',
+        txt: 'Some Text',
+        w: 400 // width of tooltip
+      }
+    }
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#headerDiv").load("header.html");
+      $("#footerDiv").load("footer.html");
+    });  
+  </script>
+  <style>
+    .grid-table {
+  display: grid;
+  /* Defines 3 columns: first two share space, last is fixed */
+  grid-template-columns: 1fr 1fr 200px; 
+  gap: 1px; /* Creates "borders" if background is different */
+  background-color: #ccc;
 }
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+.grid-table > div {
+  background-color: white;
+  padding: 10px;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f0f0f0 !important;
+}
+
+  </style>
 </head>
+
+
 <body>
+
+
     <div class="gusd-container">
         <div class="gusd-content">
             <div id="google_translate_element"></div>
-            <div><img src="/images/geyserville USD rectangle.png" alt="Geyserville Unified logo and text."/></div>
+            <div><img src="/images/geyserville USD rectangle.png" alt="Geyserville Unified logo and text." /></div>
             <div class="gusd-row gusd-card gusd-padding">
                 <div class="column_lrg">
+                    <div class="grid-table">
+  <!-- Header -->
+  <div class="header">Name</div>
+  <div class="header">Age</div>
+  <div class="header">Occupation</div>
+  
+  <!-- Row 1 -->
+  <div>Alice</div>
+  <div>25</div>
+  <div>Engineer</div>
+  
+  <!-- Row 2 -->
+  <div>Bob</div>
+  <div>30</div>
+  <div>Designer</div>
+</div>
+
                     <p>ANNUAL NOTICE TO PARENTS</p>
                     <p>2025-2026</p>
                     <p>DEAR PARENT/GUARDIAN:</p>
-                    <p>Section 48980 of the Education Code of California requires that notice be given at the beginning of the first semester or quarter of the regular school term to the parent or guardian of the minor pupils in the school district regarding the rights of the parent or guardian under sections 35291, 46014, 46015, 48205, 48207, 48208, 49403, 49423, 49451, 49472, 51938, Chapter 2.3 (commencing with section 32255) of Part 19, and notice of the availability of the program prescribed by Article 9 (commencing with section 49510) of Chapter 9 and of the availability of individualized instruction under section 48206.3. Section 48982 requires that this Notice be signed and returned by the parent or guardian to the school. Signature and return of the attached form is acknowledgement by the parent or guardian that he or she has been informed of his or her rights but does not indicate that consent to participate in any particular program has either been given or withheld. Pursuant to parent request, the annual notification may be provided to the parent or guardian in electronic format by providing access to the notice electronically. If the notice is provided in electronic format, the parent or guardian must submit to the school a signed acknowledgment of receipt of this notice. </p>
-                    <p>Some legislation requires additional notification to the parents or guardians during the school term or at least 15 days prior to a specific activity. (A separate letter will be sent to parents or guardians prior to any of these specified activities or classes, and the student will be excused whenever the parents or guardians file with the principal of the school a statement in writing requesting that their child not participate.) Other legislation grants certain rights that are spelled out in this form.
-                    Accordingly, you are hereby notified as follows (when used in this notification “parent” includes a parent or legal guardian):
+                    <p>Section 48980 of the Education Code of California requires that notice be given at the beginning
+                        of the first semester or quarter of the regular school term to the parent or guardian of the
+                        minor pupils in the school district regarding the rights of the parent or guardian under
+                        sections 35291, 46014, 46015, 48205, 48207, 48208, 49403, 49423, 49451, 49472, 51938, Chapter
+                        2.3 (commencing with section 32255) of Part 19, and notice of the availability of the program
+                        prescribed by Article 9 (commencing with section 49510) of Chapter 9 and of the availability of
+                        individualized instruction under section 48206.3. Section 48982 requires that this Notice be
+                        signed and returned by the parent or guardian to the school. Signature and return of the
+                        attached form is acknowledgement by the parent or guardian that he or she has been informed of
+                        his or her rights but does not indicate that consent to participate in any particular program
+                        has either been given or withheld. Pursuant to parent request, the annual notification may be
+                        provided to the parent or guardian in electronic format by providing access to the notice
+                        electronically. If the notice is provided in electronic format, the parent or guardian must
+                        submit to the school a signed acknowledgment of receipt of this notice. </p>
+                    <p>Some legislation requires additional notification to the parents or guardians during the school
+                        term or at least 15 days prior to a specific activity. (A separate letter will be sent to
+                        parents or guardians prior to any of these specified activities or classes, and the student will
+                        be excused whenever the parents or guardians file with the principal of the school a statement
+                        in writing requesting that their child not participate.) Other legislation grants certain rights
+                        that are spelled out in this form.
+                        Accordingly, you are hereby notified as follows (when used in this notification “parent”
+                        includes a parent or legal guardian):
                     </p>
                     <p>STUDENT DISCIPLINE</p>
-                    <p>RULES AND PROCEDURES ON SCHOOL DISCIPLINE (EC §35291):  Rules pertaining to student discipline, including those that govern suspension or expulsion, are set forth in Education Code Sections 48900 and following, and are available upon request from the school.  In addition, the following disciplinary information is provided to parents:
-                    DUTY CONCERNING CONDUCT OF PUPILS (EC §44807): Every teacher shall hold pupils accountable for their conduct on the way to and from school, and on the playground.
-                    DUTIES OF PUPILS (5 CCR §300): Pupils must conform to school regulations, obey all directions, be diligent in study, be respectful of teachers/others in authority, and refrain from profane/vulgar language.
-                    HAZING PROHIBITION (EC §48900(q)): Pupils and other persons in attendance are prohibited from engaging or attempting to engage in hazing.
-                    DRESS CODE/GANG APPAREL (EC §35183): The district is authorized to adopt a reasonable dress code.</p>
-                    <p>ATTENDANCE OF SUSPENDED PUPIL’S PARENT (EC §48900.1; LC §230.7): If a teacher suspends a student, the teacher may require the child’s parent to attend a portion of the school day in his or her child’s class.  Employers may not discriminate against parents who are required to comply with this requirement.
-                    SCHOOL ACCOUNTABILITY REPORT CARD (EC §35256, 35258):  Districts are to make a concerted effort to notify parents of the purpose of school accountability report cards, and ensure that all parents have access to a copy.
-                    SAFE PLACE TO LEARN ACT (EC §234.1): The district is committed to maintaining a learning and working environment that is free from bullying, as defined in EC §48900(r). Any student who engages in bullying of anyone in or from the district may be subject to disciplinary action up to and including expulsion. The district’s policies and process for filing a complaint should be publicized to pupils, parents, employees and agents of the governing board. The notice shall be in English and in the primary language of the recipient. For a copy of the district’s anti-discrimination, anti-harassment, anti-intimidation, and anti-bullying policies or to report incidences of bullying please contact the district office. These policies shall be posted in schools and offices.</p>
+                    <p>RULES AND PROCEDURES ON SCHOOL DISCIPLINE (EC §35291): Rules pertaining to student discipline,
+                        including those that govern suspension or expulsion, are set forth in Education Code Sections
+                        48900 and following, and are available upon request from the school. In addition, the following
+                        disciplinary information is provided to parents:
+                        DUTY CONCERNING CONDUCT OF PUPILS (EC §44807): Every teacher shall hold pupils accountable for
+                        their conduct on the way to and from school, and on the playground.
+                        DUTIES OF PUPILS (5 CCR §300): Pupils must conform to school regulations, obey all directions,
+                        be diligent in study, be respectful of teachers/others in authority, and refrain from
+                        profane/vulgar language.
+                        HAZING PROHIBITION (EC §48900(q)): Pupils and other persons in attendance are prohibited from
+                        engaging or attempting to engage in hazing.
+                        DRESS CODE/GANG APPAREL (EC §35183): The district is authorized to adopt a reasonable dress
+                        code.</p>
+                    <p>ATTENDANCE OF SUSPENDED PUPIL’S PARENT (EC §48900.1; LC §230.7): If a teacher suspends a student,
+                        the teacher may require the child’s parent to attend a portion of the school day in his or her
+                        child’s class. Employers may not discriminate against parents who are required to comply with
+                        this requirement.
+                        SCHOOL ACCOUNTABILITY REPORT CARD (EC §35256, 35258): Districts are to make a concerted effort
+                        to notify parents of the purpose of school accountability report cards, and ensure that all
+                        parents have access to a copy.
+                        SAFE PLACE TO LEARN ACT (EC §234.1): The district is committed to maintaining a learning and
+                        working environment that is free from bullying, as defined in EC §48900(r). Any student who
+                        engages in bullying of anyone in or from the district may be subject to disciplinary action up
+                        to and including expulsion. The district’s policies and process for filing a complaint should be
+                        publicized to pupils, parents, employees and agents of the governing board. The notice shall be
+                        in English and in the primary language of the recipient. For a copy of the district’s
+                        anti-discrimination, anti-harassment, anti-intimidation, and anti-bullying policies or to report
+                        incidences of bullying please contact the district office. These policies shall be posted in
+                        schools and offices.</p>
                     SCHOOL RECORDS AND ACHIEVEMENT
                     ​
-                    PUPIL RECORDS/NOTICE OF PRIVACY RIGHTS OF PARENTS AND STUDENTS (EC §49063 et seq., §49069.7, §49073, 34 CFR 99.30, 34 CFR 99.34, and the federal Family Educational Rights and Privacy Act):  Federal and state laws concerning student records grant certain rights of privacy and right of access to students and to their parents.  Full access to all personally identifiable written records maintained by the school district must be granted to: (1) Parents of students 17 and younger; (2) Parents of students age 18 and older if the student is a dependent for tax purposes and the records are needed for a legitimate educational purpose; (3) Students age 18 and older, or students who are enrolled in an institution of postsecondary instruction (called “eligible students”); (4) Pupils age 14 and over who are identified as both homeless and an unaccompanied youth; (5) Individuals who have completed and signed a Caregiver’s Authorization Affidavit.
-                    Parents, or an eligible student, may review individual records by making a request to the principal.  Districts must respond to a pupil record request by providing access no later than five business days following the date of the request. The principal will see that explanation and interpretations are provided if requested.  Information that is alleged to be inaccurate or inappropriate may be removed upon request.  In addition, parents or eligible students may receive a copy of any information in the records at reasonable cost per page.  District policies and procedures relating to:  location of, and types of records; kinds of information retained; availability of certificated personnel to interpret records if requested; persons responsible for records; directory information; access by other persons; review and challenge of records are available through the principal at each school.  When a student moves to a new district, records will be forwarded upon the request of the new school district within ten school days.  At the time of transfer, the parent or eligible student may review, receive a copy (at a reasonable fee), and/or challenge the records.
-                    If you believe the district is not in compliance with federal regulations regarding privacy, you may file a complaint with the United States Department of Education (20 USC §1232g).
-                    You have the right to inspect all instructional materials which will be used in connection with any survey, analysis, or evaluation as part of any applicable program.
-                    RELEASE OF PUPIL DIRECTORY INFORMATION (EC §49073, 34 CFR 99.37): The district also makes student directory information available in accordance with state and federal laws. This means that each student’s name, birth date, address, telephone number, email address, major course of study, participation in officially recognized school activities, dates of attendance, degrees and awards received, and most recent previous public or private school attendance may be released in accordance with board policy. In addition, height and weight of athletes may be made available.  Appropriate directory information may be provided to any agency or person except private, profit-making organizations (other than employers, potential employers or the news media). Directory information does not include citizenship status, immigration status, place of birth, or any other information indicating national origin (except where the district receives consent as required under state law). Names and addresses of seniors or terminating students may be given to public or private schools and colleges. Parents and eligible students will be notified prior to the destruction of any special education records. You have the right to inspect a survey or other instrument to be administered or distributed to your child that either collects personal information for marketing or sale or requests information about beliefs and practices and any instructional material to be used as part of your child's educational curriculum. Please contact your child’s school if you wish to inspect such a survey or other instrument.
-                    
-                    Upon written request from the parent of a student age 17 or younger, the district will withhold directory information about the student.  If the student is 18 or older or enrolled in an institution of postsecondary instruction and makes a written request, the student’s request to deny access to directory information will be honored.  Requests must be submitted within 30 calendar days of the receipt of this notification.  (See Acknowledgement of Notification form in your child's school packet.)  Additionally, directory information related to homeless or unaccompanied youths will not be released without the express written consent for its release by the eligible pupil or guardian.
-                    ​RELEASE OF INFO TO MILITARY SERVICES REPS / RELEASE OF TELEPHONE NUMBERS (EC §49073.5; 20 USC §7908): Parents of secondary students may request in writing that the student’s name, address, and telephone listing not be released to armed forces recruiters without prior written parental consent.
-                    PARTICIPATION IN STATE ASSESSMENTS AND OPTION TO REQUEST EXEMPTION (EC § 60615, 5 CCR § 852): Pupils in applicable grade levels will participate in the California Assessment of Student Performance and Progress (CAASPP) except as exempted by law. Each year, a parent may submit a written request to excuse his or her child from any or all parts of the CAASPP assessments for that school year. If the parent submits the exemption request after testing begins, any test(s) completed before the request is submitted will be scored; the results will be included in the pupil’s records and reported to the parent. School district employees will not solicit or encourage any exemption request on behalf of a pupil or group of pupils. 
-                    HIGH SCHOOL CURRICULUM: NOTIFICATION REGARDING COLLEGE PREPARATORY COURSES (EC §51229): Districts are required to provide parents of each minor pupil enrolled in grades 9 to 12 written notice of college admission requirements and career technical education courses, including direction to the CaliforniaColleges.edu platform in order to access resources that help pupils and their families learn about college admissions requirements. The district may share pupil data with the California College Guidance Initiative to provide pupils and their families with direct access to online tools and resources for college and career planning must also be provided.
-                    ADVANCED PLACEMENT EXAMINATION FEES (EC §48980(j), EC §52242): State funds are available to cover the costs of advanced placement examination fees.
-                    RELEASE OF STUDENT RECORDS/COMPLIANCE WITH SUBPOENA OR COURT ORDER (EC §§49076 and 49077): Districts are required to make a reasonable effort to notify parents in advance of disclosing student information pursuant to a subpoena or court order.
-                    RELEASE OF STUDENT RECORDS TO SCHOOL OFFICIALS AND EMPLOYEES OF THE DISTRICT (EC §§49076(a)(1) and 49064(d)): Districts may release educational records, without obtaining prior written parental consent, to any school official or employee, which would include accountants, consultants, contractors, or other service providers, who have a legitimate educational interest in the educational record.  
+                    PUPIL RECORDS/NOTICE OF PRIVACY RIGHTS OF PARENTS AND STUDENTS (EC §49063 et seq., §49069.7, §49073,
+                    34 CFR 99.30, 34 CFR 99.34, and the federal Family Educational Rights and Privacy Act): Federal and
+                    state laws concerning student records grant certain rights of privacy and right of access to
+                    students and to their parents. Full access to all personally identifiable written records maintained
+                    by the school district must be granted to: (1) Parents of students 17 and younger; (2) Parents of
+                    students age 18 and older if the student is a dependent for tax purposes and the records are needed
+                    for a legitimate educational purpose; (3) Students age 18 and older, or students who are enrolled in
+                    an institution of postsecondary instruction (called “eligible students”); (4) Pupils age 14 and over
+                    who are identified as both homeless and an unaccompanied youth; (5) Individuals who have completed
+                    and signed a Caregiver’s Authorization Affidavit.
+                    Parents, or an eligible student, may review individual records by making a request to the principal.
+                    Districts must respond to a pupil record request by providing access no later than five business
+                    days following the date of the request. The principal will see that explanation and interpretations
+                    are provided if requested. Information that is alleged to be inaccurate or inappropriate may be
+                    removed upon request. In addition, parents or eligible students may receive a copy of any
+                    information in the records at reasonable cost per page. District policies and procedures relating
+                    to: location of, and types of records; kinds of information retained; availability of certificated
+                    personnel to interpret records if requested; persons responsible for records; directory information;
+                    access by other persons; review and challenge of records are available through the principal at each
+                    school. When a student moves to a new district, records will be forwarded upon the request of the
+                    new school district within ten school days. At the time of transfer, the parent or eligible student
+                    may review, receive a copy (at a reasonable fee), and/or challenge the records.
+                    If you believe the district is not in compliance with federal regulations regarding privacy, you may
+                    file a complaint with the United States Department of Education (20 USC §1232g).
+                    You have the right to inspect all instructional materials which will be used in connection with any
+                    survey, analysis, or evaluation as part of any applicable program.
+                    RELEASE OF PUPIL DIRECTORY INFORMATION (EC §49073, 34 CFR 99.37): The district also makes student
+                    directory information available in accordance with state and federal laws. This means that each
+                    student’s name, birth date, address, telephone number, email address, major course of study,
+                    participation in officially recognized school activities, dates of attendance, degrees and awards
+                    received, and most recent previous public or private school attendance may be released in accordance
+                    with board policy. In addition, height and weight of athletes may be made available. Appropriate
+                    directory information may be provided to any agency or person except private, profit-making
+                    organizations (other than employers, potential employers or the news media). Directory information
+                    does not include citizenship status, immigration status, place of birth, or any other information
+                    indicating national origin (except where the district receives consent as required under state law).
+                    Names and addresses of seniors or terminating students may be given to public or private schools and
+                    colleges. Parents and eligible students will be notified prior to the destruction of any special
+                    education records. You have the right to inspect a survey or other instrument to be administered or
+                    distributed to your child that either collects personal information for marketing or sale or
+                    requests information about beliefs and practices and any instructional material to be used as part
+                    of your child's educational curriculum. Please contact your child’s school if you wish to inspect
+                    such a survey or other instrument.
+
+                    Upon written request from the parent of a student age 17 or younger, the district will withhold
+                    directory information about the student. If the student is 18 or older or enrolled in an institution
+                    of postsecondary instruction and makes a written request, the student’s request to deny access to
+                    directory information will be honored. Requests must be submitted within 30 calendar days of the
+                    receipt of this notification. (See Acknowledgement of Notification form in your child's school
+                    packet.) Additionally, directory information related to homeless or unaccompanied youths will not be
+                    released without the express written consent for its release by the eligible pupil or guardian.
+                    ​RELEASE OF INFO TO MILITARY SERVICES REPS / RELEASE OF TELEPHONE NUMBERS (EC §49073.5; 20 USC
+                    §7908): Parents of secondary students may request in writing that the student’s name, address, and
+                    telephone listing not be released to armed forces recruiters without prior written parental consent.
+                    PARTICIPATION IN STATE ASSESSMENTS AND OPTION TO REQUEST EXEMPTION (EC § 60615, 5 CCR § 852): Pupils
+                    in applicable grade levels will participate in the California Assessment of Student Performance and
+                    Progress (CAASPP) except as exempted by law. Each year, a parent may submit a written request to
+                    excuse his or her child from any or all parts of the CAASPP assessments for that school year. If the
+                    parent submits the exemption request after testing begins, any test(s) completed before the request
+                    is submitted will be scored; the results will be included in the pupil’s records and reported to the
+                    parent. School district employees will not solicit or encourage any exemption request on behalf of a
+                    pupil or group of pupils.
+                    HIGH SCHOOL CURRICULUM: NOTIFICATION REGARDING COLLEGE PREPARATORY COURSES (EC §51229): Districts
+                    are required to provide parents of each minor pupil enrolled in grades 9 to 12 written notice of
+                    college admission requirements and career technical education courses, including direction to the
+                    CaliforniaColleges.edu platform in order to access resources that help pupils and their families
+                    learn about college admissions requirements. The district may share pupil data with the California
+                    College Guidance Initiative to provide pupils and their families with direct access to online tools
+                    and resources for college and career planning must also be provided.
+                    ADVANCED PLACEMENT EXAMINATION FEES (EC §48980(j), EC §52242): State funds are available to cover
+                    the costs of advanced placement examination fees.
+                    RELEASE OF STUDENT RECORDS/COMPLIANCE WITH SUBPOENA OR COURT ORDER (EC §§49076 and 49077): Districts
+                    are required to make a reasonable effort to notify parents in advance of disclosing student
+                    information pursuant to a subpoena or court order.
+                    RELEASE OF STUDENT RECORDS TO SCHOOL OFFICIALS AND EMPLOYEES OF THE DISTRICT (EC §§49076(a)(1) and
+                    49064(d)): Districts may release educational records, without obtaining prior written parental
+                    consent, to any school official or employee, which would include accountants, consultants,
+                    contractors, or other service providers, who have a legitimate educational interest in the
+                    educational record.
                     HEALTH SERVICES
 
-                    DANGERS ASSOCIATED WITH SYNTHETIC DRUGS (EC § 48985.5): Districts must inform the parents or guardians of each enrolled pupil about the dangers associated with using synthetic drugs that are not prescribed by a physician, such as fentanyl; the possibility that dangerous synthetic drugs can be found in counterfeit pills; and the risk of social media platforms being used as a way to market and sell synthetic drugs, such as fentanyl. If a district maintains an internet website, it shall post the information on their internet website and shall ensure that each individual school within the district that maintains an individual internet website also posts the information on that school’s internet website.
-                    SAFE STORAGE OF FIREARMS (EC § 49392): A local educational agency serving pupils in kindergarten or any of grades 1 to 12, inclusive, shall, based upon model content from the California Department of Education, inform parents or guardians of California’s child access prevention laws and laws relating to the safe storage of firearms. The required notice must include the following information related to the safe storage of firearms: Incidents of children bringing firearms to school can be reduced by storing firearms in a safe and secure manner, including keeping them in a locked container or secured with a locking device that renders the firearm inoperable and storing firearms separately from ammunition.
-                    PHYSICAL EXAMINATION; PARENT REFUSAL TO CONSENT (EC §49451): A child may be exempt from physical examination whenever the parents file, annually, a written statement with the school principal stating that they will not consent to routine physical exam of their child. Whenever there is good reason to believe the child is suffering from a recognized contagious disease, the child will be excluded from school attendance.
-                    VISION APPRAISAL (EC §49455): The district is required to appraise each student’s vision during kindergarten, upon initial enrollment, and in grades 2, 5, and 8. Appraisal in the year immediately following a student’s first enrollment in grades 4 or 7 shall not be required. The vision appraisal shall include tests for near vision, far vision, and color vision; however, color vision shall be appraised once and only on male students. The evaluation may be waived upon presentation of a certificate from a physician, surgeon, physician’s assistant, or optometrist setting out the results of a determination of the student’s vision, including visual acuity and color vision. This appraisal is not required if a parent files a written objection based on a religious belief with the principal.
-                    SCOLIOSIS SCREENING NOTICE (EC §§49451 and 49452.5): In addition to the physical examinations required pursuant to Section 100275 of the Health and Safety Code, the district may provide for the screening of every female student in grade 7 and every male student in grade 8 for the condition known as scoliosis.
-                    DENTAL FLUORIDE TREATMENT (H&SC §104830 et seq.): Pupils will be provided the opportunity to receive the topical application of fluoride or other decay-inhibiting agent to each pupil’s teeth if the parent, or eligible pupil submits a letter stating that the treatment is desired.
-                    PUPIL NUTRITION/NOTICE OF FREE AND REDUCED PRICE MEALS (EC §§48980(b), 49510, 49520 and 49558): Needy children may be eligible for free or reduced price meals. Details, eligibility criteria, and applications to participate in a free or reduced price meal program if it is available are available at your child’s school. Individual records pertaining to student participation in any free or reduced-price meal program may, under appropriate circumstances, be used by school district employees to identify students eligible for public school choice and services pursuant to the federal Every Student Succeeds Act. When a household is selected for verification of eligibility for free and reduced meals, the District must notify the parent that their child(ren)’s eligibility is being verified. For information about California’s Universal Meals Program, visit the district’s website or the website of the California Department of Education
-                    COMMUNICABLE DISEASES (EC §48216 and 49403): The district is authorized to administer immunizing agents to pupils whose parents have consented in writing to the administration of such immunizing agent. The district is required to exclude pupils who have not been properly immunized pursuant to Health and Safety Code 120325 and 120335. The district must notify parents that they have two weeks to supply evidence either that the pupil has been properly immunized or is exempted from the requirement. All students entering kindergarten, advancing from sixth to seventh grade in the district, or prior to his or her first admission to the district, will be required to comply with the immunization requirements of Health and Safety Code section 120335, unless the student provides the district with a valid exemption from a licensed physician. No new personal belief exemptions will be accepted. Students with personal-belief exemptions on file with the district as of January 1, 2016, shall be allowed to continue enrollment until entering the next grade span in the district. Grade spans are defined as birth through preschool, K-6, including transitional kindergarten, and 7-12. Students qualified for an individualized education program may access special education and related services as required by his or her individualized educational program.  
-                    MEDICATION (EC §49423, §49423.1): Any student who must take prescribed medication at school and who desires assistance of school personnel must submit a written statement of instructions from the physician and a parental request for assistance in administering the medication.  Students may also carry and self-administer prescription auto-injectable epinephrine and prescription inhaled asthma medication upon the school’s receipt of specified written confirmation with instructions for self-administration and authorization from the student’s parent and physician or surgeon. The parent must release the school district and personnel from liability for any harm resulting from the self-administered medication, and provide a release for authorized school personnel to consult with the physician or surgeon.
-                    MEDICAL AND HOSPITAL SERVICES FOR PUPILS (EC §§49471 and 49472): The district is required to notify parents in writing if it does not provide or make available medical and hospital services for students injured while participating in athletic activities. The district is also authorized to provide medical or hospital services through non-profit membership corporations or insurance policies for student injuries arising out of school-related activities.
-                    AVAILABILITY OF INDIVIDUALIZED INSTRUCTION/PRESENCE OF PUPIL WITH TEMPORARY DISABILITY IN HOSPITAL (EC §§48206.3, 48207-48208): Individualized instruction is available to students with temporary disabilities whose disability makes attendance in the regular day classes or alternative education program in which the student is enrolled impossible or inadvisable. Parents of students hospitalized or with a temporary disability shall notify the school district(s) where the student attends, resides and/or where the student receives care if an individualized instruction program is desired.
-                    CONTINUING MEDICATION REGIMEN (EC §49480): Parents of any student on a continuing medication regimen for a non-episodic condition shall inform the school nurse or other designated certificated school employee of the medication(s) being taken, the current dosage, and the name of the supervising physician. (See Acknowledgement of Notification form in your child's school packet.) With the consent of the parent, the school nurse may communicate with the physician and may counsel with school personnel regarding the possible effects of the drug on the child’s physical, intellectual, and social behavior, as well as possible behavioral signs and symptoms of adverse side effects, omission, or overdose.
-                    SUN PROTECTIVE CLOTHING/USE OF SUNSCREEN (EC §35183.5):  School sites must allow for outdoor use of sun-protective clothing and must allow students to use sunscreen, without a prescription or physician’s note, during the school day.
-                    ASBESTOS (40 CFR 763.84, 40 CFR 763.93): The district has a plan for eliminating health risks that are created by the presence of asbestos in school buildings. It may be reviewed at the district office. At least once each year, the district will notify parents of inspections, response actions, and post-response action activities that are planned or in progress.
-                    USE OF PESTICIDES (EC §§17611.5, 17612 and 48980.3): School districts are required to inform parents about the use of pesticides on school grounds and provide access to the integrated pest management plan when certain pesticides are used. (See below.) 
-                    COMPREHENSIVE SCHOOL SAFETY PLAN (EC §§32280 et seq.): Each school is required to report on the status of its school safety plan, including a description of its key elements, in the annual school accountability report card (SARC). The planning committee is required to hold a public meeting to allow members of the public the opportunity to express an opinion about the school plan. The planning committee shall notify specified persons and entities in writing.
-                    NOTICE OF COMPLIANCE (EC §32289): A complaint of noncompliance with the school safety planning requirements may be filed with the State Department of Education under the Uniform Complaint Procedures (5 CCR 4600 et seq.).
-                    TOBACCO FREE SCHOOLS (HS §104420): Use of tobacco products at any time by students, staff, parents, or visitors, is strictly prohibited in district-owned or leased buildings, on district property, and in district vehicles. This prohibition applies to all employees, students, and visitors at any school-sponsored instructional program, activity, or athletic event held on or off district property. Prohibited products include any product containing tobacco or nicotine, including, but not limited to, smokeless tobacco, snuff, chew, clove cigarettes, and electronic cigarettes that can deliver nicotine and nonnicotine vaporized solutions. Exceptions may be made for the use or possession of prescription nicotine products. Any employee or student who violates the district's tobacco-free schools policy shall be asked to refrain from smoking and shall be subject to disciplinary action as appropriate. 
+                    DANGERS ASSOCIATED WITH SYNTHETIC DRUGS (EC § 48985.5): Districts must inform the parents or
+                    guardians of each enrolled pupil about the dangers associated with using synthetic drugs that are
+                    not prescribed by a physician, such as fentanyl; the possibility that dangerous synthetic drugs can
+                    be found in counterfeit pills; and the risk of social media platforms being used as a way to market
+                    and sell synthetic drugs, such as fentanyl. If a district maintains an internet website, it shall
+                    post the information on their internet website and shall ensure that each individual school within
+                    the district that maintains an individual internet website also posts the information on that
+                    school’s internet website.
+                    SAFE STORAGE OF FIREARMS (EC § 49392): A local educational agency serving pupils in kindergarten or
+                    any of grades 1 to 12, inclusive, shall, based upon model content from the California Department of
+                    Education, inform parents or guardians of California’s child access prevention laws and laws
+                    relating to the safe storage of firearms. The required notice must include the following information
+                    related to the safe storage of firearms: Incidents of children bringing firearms to school can be
+                    reduced by storing firearms in a safe and secure manner, including keeping them in a locked
+                    container or secured with a locking device that renders the firearm inoperable and storing firearms
+                    separately from ammunition.
+                    PHYSICAL EXAMINATION; PARENT REFUSAL TO CONSENT (EC §49451): A child may be exempt from physical
+                    examination whenever the parents file, annually, a written statement with the school principal
+                    stating that they will not consent to routine physical exam of their child. Whenever there is good
+                    reason to believe the child is suffering from a recognized contagious disease, the child will be
+                    excluded from school attendance.
+                    VISION APPRAISAL (EC §49455): The district is required to appraise each student’s vision during
+                    kindergarten, upon initial enrollment, and in grades 2, 5, and 8. Appraisal in the year immediately
+                    following a student’s first enrollment in grades 4 or 7 shall not be required. The vision appraisal
+                    shall include tests for near vision, far vision, and color vision; however, color vision shall be
+                    appraised once and only on male students. The evaluation may be waived upon presentation of a
+                    certificate from a physician, surgeon, physician’s assistant, or optometrist setting out the results
+                    of a determination of the student’s vision, including visual acuity and color vision. This appraisal
+                    is not required if a parent files a written objection based on a religious belief with the
+                    principal.
+                    SCOLIOSIS SCREENING NOTICE (EC §§49451 and 49452.5): In addition to the physical examinations
+                    required pursuant to Section 100275 of the Health and Safety Code, the district may provide for the
+                    screening of every female student in grade 7 and every male student in grade 8 for the condition
+                    known as scoliosis.
+                    DENTAL FLUORIDE TREATMENT (H&SC §104830 et seq.): Pupils will be provided the opportunity to receive
+                    the topical application of fluoride or other decay-inhibiting agent to each pupil’s teeth if the
+                    parent, or eligible pupil submits a letter stating that the treatment is desired.
+                    PUPIL NUTRITION/NOTICE OF FREE AND REDUCED PRICE MEALS (EC §§48980(b), 49510, 49520 and 49558):
+                    Needy children may be eligible for free or reduced price meals. Details, eligibility criteria, and
+                    applications to participate in a free or reduced price meal program if it is available are available
+                    at your child’s school. Individual records pertaining to student participation in any free or
+                    reduced-price meal program may, under appropriate circumstances, be used by school district
+                    employees to identify students eligible for public school choice and services pursuant to the
+                    federal Every Student Succeeds Act. When a household is selected for verification of eligibility for
+                    free and reduced meals, the District must notify the parent that their child(ren)’s eligibility is
+                    being verified. For information about California’s Universal Meals Program, visit the district’s
+                    website or the website of the California Department of Education
+                    COMMUNICABLE DISEASES (EC §48216 and 49403): The district is authorized to administer immunizing
+                    agents to pupils whose parents have consented in writing to the administration of such immunizing
+                    agent. The district is required to exclude pupils who have not been properly immunized pursuant to
+                    Health and Safety Code 120325 and 120335. The district must notify parents that they have two weeks
+                    to supply evidence either that the pupil has been properly immunized or is exempted from the
+                    requirement. All students entering kindergarten, advancing from sixth to seventh grade in the
+                    district, or prior to his or her first admission to the district, will be required to comply with
+                    the immunization requirements of Health and Safety Code section 120335, unless the student provides
+                    the district with a valid exemption from a licensed physician. No new personal belief exemptions
+                    will be accepted. Students with personal-belief exemptions on file with the district as of January
+                    1, 2016, shall be allowed to continue enrollment until entering the next grade span in the district.
+                    Grade spans are defined as birth through preschool, K-6, including transitional kindergarten, and
+                    7-12. Students qualified for an individualized education program may access special education and
+                    related services as required by his or her individualized educational program.
+                    MEDICATION (EC §49423, §49423.1): Any student who must take prescribed medication at school and who
+                    desires assistance of school personnel must submit a written statement of instructions from the
+                    physician and a parental request for assistance in administering the medication. Students may also
+                    carry and self-administer prescription auto-injectable epinephrine and prescription inhaled asthma
+                    medication upon the school’s receipt of specified written confirmation with instructions for
+                    self-administration and authorization from the student’s parent and physician or surgeon. The parent
+                    must release the school district and personnel from liability for any harm resulting from the
+                    self-administered medication, and provide a release for authorized school personnel to consult with
+                    the physician or surgeon.
+                    MEDICAL AND HOSPITAL SERVICES FOR PUPILS (EC §§49471 and 49472): The district is required to notify
+                    parents in writing if it does not provide or make available medical and hospital services for
+                    students injured while participating in athletic activities. The district is also authorized to
+                    provide medical or hospital services through non-profit membership corporations or insurance
+                    policies for student injuries arising out of school-related activities.
+                    AVAILABILITY OF INDIVIDUALIZED INSTRUCTION/PRESENCE OF PUPIL WITH TEMPORARY DISABILITY IN HOSPITAL
+                    (EC §§48206.3, 48207-48208): Individualized instruction is available to students with temporary
+                    disabilities whose disability makes attendance in the regular day classes or alternative education
+                    program in which the student is enrolled impossible or inadvisable. Parents of students hospitalized
+                    or with a temporary disability shall notify the school district(s) where the student attends,
+                    resides and/or where the student receives care if an individualized instruction program is desired.
+                    CONTINUING MEDICATION REGIMEN (EC §49480): Parents of any student on a continuing medication regimen
+                    for a non-episodic condition shall inform the school nurse or other designated certificated school
+                    employee of the medication(s) being taken, the current dosage, and the name of the supervising
+                    physician. (See Acknowledgement of Notification form in your child's school packet.) With the
+                    consent of the parent, the school nurse may communicate with the physician and may counsel with
+                    school personnel regarding the possible effects of the drug on the child’s physical, intellectual,
+                    and social behavior, as well as possible behavioral signs and symptoms of adverse side effects,
+                    omission, or overdose.
+                    SUN PROTECTIVE CLOTHING/USE OF SUNSCREEN (EC §35183.5): School sites must allow for outdoor use of
+                    sun-protective clothing and must allow students to use sunscreen, without a prescription or
+                    physician’s note, during the school day.
+                    ASBESTOS (40 CFR 763.84, 40 CFR 763.93): The district has a plan for eliminating health risks that
+                    are created by the presence of asbestos in school buildings. It may be reviewed at the district
+                    office. At least once each year, the district will notify parents of inspections, response actions,
+                    and post-response action activities that are planned or in progress.
+                    USE OF PESTICIDES (EC §§17611.5, 17612 and 48980.3): School districts are required to inform parents
+                    about the use of pesticides on school grounds and provide access to the integrated pest management
+                    plan when certain pesticides are used. (See below.)
+                    COMPREHENSIVE SCHOOL SAFETY PLAN (EC §§32280 et seq.): Each school is required to report on the
+                    status of its school safety plan, including a description of its key elements, in the annual school
+                    accountability report card (SARC). The planning committee is required to hold a public meeting to
+                    allow members of the public the opportunity to express an opinion about the school plan. The
+                    planning committee shall notify specified persons and entities in writing.
+                    NOTICE OF COMPLIANCE (EC §32289): A complaint of noncompliance with the school safety planning
+                    requirements may be filed with the State Department of Education under the Uniform Complaint
+                    Procedures (5 CCR 4600 et seq.).
+                    TOBACCO FREE SCHOOLS (HS §104420): Use of tobacco products at any time by students, staff, parents,
+                    or visitors, is strictly prohibited in district-owned or leased buildings, on district property, and
+                    in district vehicles. This prohibition applies to all employees, students, and visitors at any
+                    school-sponsored instructional program, activity, or athletic event held on or off district
+                    property. Prohibited products include any product containing tobacco or nicotine, including, but not
+                    limited to, smokeless tobacco, snuff, chew, clove cigarettes, and electronic cigarettes that can
+                    deliver nicotine and nonnicotine vaporized solutions. Exceptions may be made for the use or
+                    possession of prescription nicotine products. Any employee or student who violates the district's
+                    tobacco-free schools policy shall be asked to refrain from smoking and shall be subject to
+                    disciplinary action as appropriate.
                     STUDENT SERVICES
                     ​
-                    MINIMUM AGE OF ADMISSION TO KINDERGARTEN (EC §48000): A child shall be eligible for enrollment in kindergarten at the beginning of the school year or at a later time in the same year, if the child has their fifth birthday, respectively, on or before September 1. For the 2024-25 school year, any child who will have their fifth birthday between September 2 and June 2 shall be admitted to a transitional kindergarten program in accordance with law and district policy. On a case-by-case basis, a child who has reached age five after the date listed above but before the end of the applicable school year, may be admitted to transitional kindergarten with the approval of the child’s parent and subject to board approval in accordance with EC §48000. A school district may place a child who will have their fourth birthday on or before December 1 and is enrolled in a California state preschool program into a transitional kindergarten program classroom in accordance with EC §48000.
-                    
-                    PREGNANT AND PARENTING PUPILS (EC §§ 221.51, 222, 222.5, 46015): Districts may not exclude nor deny any pupil from any educational program or activity on the basis of the pupil’s pregnancy, childbirth, false pregnancy, termination of pregnancy, or recovery therefrom, and shall treat these conditions in the same manner and under the same policies as any other temporary disabling condition. A pregnant or parenting pupil is entitled to 8 weeks of parental leave, or additional leave if deemed medically necessary by the pupil’s physician. During parental leave, absences shall be excused and the pupil shall not be required to complete academic work or other school requirements. After return from parental leave, a pupil may resume the course of study in which he/she was previously enrolled, is entitled to make up work missed, and to take a fifth year of high school instruction if necessary to complete graduation requirements. A pupil may elect to attend an alternative education option instead of returning to the school in which he or she was enrolled prior to parental leave. Schools shall provide reasonable accommodations to a lactating pupil on a school campus to express breast milk, breast-feed an infant child, or address other needs related to breast-feeding. A pupil shall not incur an academic penalty as a result of his or her use of these accommodations.
-                    
-                    PROSPECTUS OF SCHOOL CURRICULUM (EC §49091.14): The curriculum of every course offered by the schools of the district is compiled annually by each school in a prospectus.  Each school prospectus is available for review upon request at each school site.  Copies are available upon request for a fee not to exceed the actual copying cost.
-                    NOTIFICATION OF APPRENTICESHIP AND PREAPPRENTICESHIP PROGRAMS (EC §48980.5): For pupils admitted or advancing to grades 11 and 12, a school district shall provide information on local apprenticeship programs and preapprenticeship programs by using the database of registered program sponsors provided on the internet website of the Department of Industrial Relations’ Division of Apprenticeship Standards. A district may use contact information contained in the Division of Apprenticeship Standards’ database to obtain information or materials, including, but not limited to, pamphlets or brochures. If a school district maintains an internet website, the school district shall make the Division of Apprenticeship Standards’ database accessible through a direct link on its internet website.
-                    MULTILINGUAL EDUCATION (EC §310): If the district implements a language acquisition program pursuant to EC §310, information on the types of language programs available and a description of each program will be made available with this notice or upon enrollment.    
-                    SPECIAL EDUCATION (IDEA): State and federal law requires that a free appropriate public education (FAPE) in the least restrictive environment be offered to qualified pupils with disabilities ages 3 through 21 years. More information concerning student eligibility, parental rights and procedural safeguards are available upon request.
-                    SPECIAL EDUCATION; CHILD FIND SYSTEM (EC §56301): Any parent suspecting that a child has exceptional needs may request an assessment for eligibility for special education services through the school principal.  Policy and procedures shall include written notification to all parents of their rights pursuant to EC §56300.
-                    SPECIAL EDUCATION COMPLAINTS (5 CCR §3080): State regulations require the district to establish procedures to deal with complaints regarding special education. If you believe that the district is in violation of federal or state law governing the identification or placement of a special education student, or similar issues, you may file a written complaint with the district.  State regulations require the district to forward your complaint to the State Superintendent of Public Instruction. Procedures are available from your school principal.
-                    SECTION 504/DISABLED PUPILS (Section 504 of the Rehabilitation Act of 1973): Federal law requires the district to annually notify disabled pupils and their parents of the district’s non-discriminatory policy and duty under Section 504 of the Rehabilitation Act.
-                    STATEMENT OF NONDISCRIMINATION (Title VI of the Civil Rights Act of 1964; Title IX of the U.S. Education Amendments of 1972; Americans with Disabilities Act; Section 504 of the Vocational Rehabilitation Act of 1973; EC §200 et seq.): The district does not discriminate on the basis of gender, gender identity, gender expression, sex, race, color, religion, national origin, ethnic group identification, age, genetic information, mental or physical disability, sexual orientation, immigration status, or the perception of one or more of such characteristics. The district’s policy of nondiscrimination requires notification in native language if the district’s service area contains a community of minority persons with limited English language skills.  Notification must state that the district will take steps to assure that the lack of English will not be a barrier to admission and participation in district programs. This policy applies to all students insofar as participation in programs and activities is concerned, with few exceptions such as contact sports. In accordance with federal law, complaints alleging noncompliance with this policy should be directed to the school principal. Appeals may be made to the district superintendent. A copy of the district’s nondiscrimination policy is available upon request.
-                    EDUCATIONAL EQUITY REGARDLESS OF IMMIGRATION STATUS, CITIZENSHIP, OR RELIGION (EC §234.7): Children have a right to a free public education, regardless of immigration status, citizenship status, or religious beliefs. When enrolling a child, schools must accept a variety of documents from the student’s parent to demonstrate proof of child’s age or residency. No information about citizenship/immigration status or Social Security number is required to enroll in school. Parents have the option to provide a school with emergency contact information, including the information of secondary contacts, to identify a trusted adult guardian who can care for a minor student in the event the parent is detained or deported. Parents have the option to complete a Caregiver’s Authorization Affidavit or a Petition for Appointment of Temporary Guardian of the Person, which may enable a trusted adult the authority to make educational and medical decisions for a minor student. Students have the right to report a hate crime or file a complaint to the school district if they are discriminated against, harassed, intimidated, or bullied on the basis of actual or perceived nationality, ethnicity, or immigration status. The district will not release information to third parties for immigration-enforcement purposes, except as required by law or court order. The California Attorney General's website provides “know your rights” resources for immigrant students and family members online at https://oag.ca.gov/immigrant/rights.
-                    FINGERPRINTING PROGRAM (EC §32390): Districts are authorized to offer fingerprinting programs for children enrolled in kindergarten or newly enrolled in the district. If the district has adopted such a program, you will be notified of procedures, applicable fee and your right to decline your child’s participation upon your child’s initial enrollment.
-                    CHILDREN IN HOMELESS SITUATIONS (42 USC §11431-11435): Each local district shall appoint a liaison for homeless children who shall ensure the dissemination of public notice of the educational rights of students in homeless situations.  
+                    MINIMUM AGE OF ADMISSION TO KINDERGARTEN (EC §48000): A child shall be eligible for enrollment in
+                    kindergarten at the beginning of the school year or at a later time in the same year, if the child
+                    has their fifth birthday, respectively, on or before September 1. For the 2024-25 school year, any
+                    child who will have their fifth birthday between September 2 and June 2 shall be admitted to a
+                    transitional kindergarten program in accordance with law and district policy. On a case-by-case
+                    basis, a child who has reached age five after the date listed above but before the end of the
+                    applicable school year, may be admitted to transitional kindergarten with the approval of the
+                    child’s parent and subject to board approval in accordance with EC §48000. A school district may
+                    place a child who will have their fourth birthday on or before December 1 and is enrolled in a
+                    California state preschool program into a transitional kindergarten program classroom in accordance
+                    with EC §48000.
+
+                    PREGNANT AND PARENTING PUPILS (EC §§ 221.51, 222, 222.5, 46015): Districts may not exclude nor deny
+                    any pupil from any educational program or activity on the basis of the pupil’s pregnancy,
+                    childbirth, false pregnancy, termination of pregnancy, or recovery therefrom, and shall treat these
+                    conditions in the same manner and under the same policies as any other temporary disabling
+                    condition. A pregnant or parenting pupil is entitled to 8 weeks of parental leave, or additional
+                    leave if deemed medically necessary by the pupil’s physician. During parental leave, absences shall
+                    be excused and the pupil shall not be required to complete academic work or other school
+                    requirements. After return from parental leave, a pupil may resume the course of study in which
+                    he/she was previously enrolled, is entitled to make up work missed, and to take a fifth year of high
+                    school instruction if necessary to complete graduation requirements. A pupil may elect to attend an
+                    alternative education option instead of returning to the school in which he or she was enrolled
+                    prior to parental leave. Schools shall provide reasonable accommodations to a lactating pupil on a
+                    school campus to express breast milk, breast-feed an infant child, or address other needs related to
+                    breast-feeding. A pupil shall not incur an academic penalty as a result of his or her use of these
+                    accommodations.
+
+                    PROSPECTUS OF SCHOOL CURRICULUM (EC §49091.14): The curriculum of every course offered by the
+                    schools of the district is compiled annually by each school in a prospectus. Each school prospectus
+                    is available for review upon request at each school site. Copies are available upon request for a
+                    fee not to exceed the actual copying cost.
+                    NOTIFICATION OF APPRENTICESHIP AND PREAPPRENTICESHIP PROGRAMS (EC §48980.5): For pupils admitted or
+                    advancing to grades 11 and 12, a school district shall provide information on local apprenticeship
+                    programs and preapprenticeship programs by using the database of registered program sponsors
+                    provided on the internet website of the Department of Industrial Relations’ Division of
+                    Apprenticeship Standards. A district may use contact information contained in the Division of
+                    Apprenticeship Standards’ database to obtain information or materials, including, but not limited
+                    to, pamphlets or brochures. If a school district maintains an internet website, the school district
+                    shall make the Division of Apprenticeship Standards’ database accessible through a direct link on
+                    its internet website.
+                    MULTILINGUAL EDUCATION (EC §310): If the district implements a language acquisition program pursuant
+                    to EC §310, information on the types of language programs available and a description of each
+                    program will be made available with this notice or upon enrollment.
+                    SPECIAL EDUCATION (IDEA): State and federal law requires that a free appropriate public education
+                    (FAPE) in the least restrictive environment be offered to qualified pupils with disabilities ages 3
+                    through 21 years. More information concerning student eligibility, parental rights and procedural
+                    safeguards are available upon request.
+                    SPECIAL EDUCATION; CHILD FIND SYSTEM (EC §56301): Any parent suspecting that a child has exceptional
+                    needs may request an assessment for eligibility for special education services through the school
+                    principal. Policy and procedures shall include written notification to all parents of their rights
+                    pursuant to EC §56300.
+                    SPECIAL EDUCATION COMPLAINTS (5 CCR §3080): State regulations require the district to establish
+                    procedures to deal with complaints regarding special education. If you believe that the district is
+                    in violation of federal or state law governing the identification or placement of a special
+                    education student, or similar issues, you may file a written complaint with the district. State
+                    regulations require the district to forward your complaint to the State Superintendent of Public
+                    Instruction. Procedures are available from your school principal.
+                    SECTION 504/DISABLED PUPILS (Section 504 of the Rehabilitation Act of 1973): Federal law requires
+                    the district to annually notify disabled pupils and their parents of the district’s
+                    non-discriminatory policy and duty under Section 504 of the Rehabilitation Act.
+                    STATEMENT OF NONDISCRIMINATION (Title VI of the Civil Rights Act of 1964; Title IX of the U.S.
+                    Education Amendments of 1972; Americans with Disabilities Act; Section 504 of the Vocational
+                    Rehabilitation Act of 1973; EC §200 et seq.): The district does not discriminate on the basis of
+                    gender, gender identity, gender expression, sex, race, color, religion, national origin, ethnic
+                    group identification, age, genetic information, mental or physical disability, sexual orientation,
+                    immigration status, or the perception of one or more of such characteristics. The district’s policy
+                    of nondiscrimination requires notification in native language if the district’s service area
+                    contains a community of minority persons with limited English language skills. Notification must
+                    state that the district will take steps to assure that the lack of English will not be a barrier to
+                    admission and participation in district programs. This policy applies to all students insofar as
+                    participation in programs and activities is concerned, with few exceptions such as contact sports.
+                    In accordance with federal law, complaints alleging noncompliance with this policy should be
+                    directed to the school principal. Appeals may be made to the district superintendent. A copy of the
+                    district’s nondiscrimination policy is available upon request.
+                    EDUCATIONAL EQUITY REGARDLESS OF IMMIGRATION STATUS, CITIZENSHIP, OR RELIGION (EC §234.7): Children
+                    have a right to a free public education, regardless of immigration status, citizenship status, or
+                    religious beliefs. When enrolling a child, schools must accept a variety of documents from the
+                    student’s parent to demonstrate proof of child’s age or residency. No information about
+                    citizenship/immigration status or Social Security number is required to enroll in school. Parents
+                    have the option to provide a school with emergency contact information, including the information of
+                    secondary contacts, to identify a trusted adult guardian who can care for a minor student in the
+                    event the parent is detained or deported. Parents have the option to complete a Caregiver’s
+                    Authorization Affidavit or a Petition for Appointment of Temporary Guardian of the Person, which may
+                    enable a trusted adult the authority to make educational and medical decisions for a minor student.
+                    Students have the right to report a hate crime or file a complaint to the school district if they
+                    are discriminated against, harassed, intimidated, or bullied on the basis of actual or perceived
+                    nationality, ethnicity, or immigration status. The district will not release information to third
+                    parties for immigration-enforcement purposes, except as required by law or court order. The
+                    California Attorney General's website provides “know your rights” resources for immigrant students
+                    and family members online at https://oag.ca.gov/immigrant/rights.
+                    FINGERPRINTING PROGRAM (EC §32390): Districts are authorized to offer fingerprinting programs for
+                    children enrolled in kindergarten or newly enrolled in the district. If the district has adopted
+                    such a program, you will be notified of procedures, applicable fee and your right to decline your
+                    child’s participation upon your child’s initial enrollment.
+                    CHILDREN IN HOMELESS SITUATIONS (42 USC §11431-11435): Each local district shall appoint a liaison
+                    for homeless children who shall ensure the dissemination of public notice of the educational rights
+                    of students in homeless situations.
                     SEX / HIV EDUCATION
                     ​
-                    INSTRUCTION IN COMPREHENSIVE SEXUAL HEALTH EDUCATION AND HIV PREVENTION (EC §51938): The district shall annually notify parents about instruction in comprehensive sexual health education and HIV prevention education and research on student health behaviors and risks planned for the school year. Written and audiovisual educational materials used in such education are available for inspection. If arrangement for the instruction is made after the beginning of the school year, parents will be notified no fewer than 14 days prior to the commencement of any such instruction if the district elects to provide the instruction by outside consultants in class or during an assembly. The notice must include the date of instruction, the name of the organization or affiliation of each guest speaker and information stating that the parent has the right to request a copy of the law pertaining to such instruction. Parents have the right to excuse his or her child from all or part of the comprehensive sexual health and HIV prevention education by submitting a written request to the district.  Those students whose parents do not submit a written request to excuse them will receive such instruction. The law also authorizes the district, without prior parental consent, to use anonymous, voluntary and confidential research and evaluation tools to measure student’s health behaviors and risks, including tests, questionnaires, and surveys containing age appropriate questions in grades 7 to 12 about the student’s attitudes concerning or practices relating to sex. The district must notify parents in writing before any such test, questionnaire, or survey is administered and provide them with an opportunity to review the materials. Parents have the right to excuse his or her child from such participation by submitting a written request to the school district.  
-                    HEALTH INSTRUCTION/CONFLICTS WITH RELIGIOUS TRAINING AND BELIEFS (EC §51240): Upon written request of a parent, students shall be excused from part of any school instruction in health if it conflicts with the religious training and beliefs of a parent.
+                    INSTRUCTION IN COMPREHENSIVE SEXUAL HEALTH EDUCATION AND HIV PREVENTION (EC §51938): The district
+                    shall annually notify parents about instruction in comprehensive sexual health education and HIV
+                    prevention education and research on student health behaviors and risks planned for the school year.
+                    Written and audiovisual educational materials used in such education are available for inspection.
+                    If arrangement for the instruction is made after the beginning of the school year, parents will be
+                    notified no fewer than 14 days prior to the commencement of any such instruction if the district
+                    elects to provide the instruction by outside consultants in class or during an assembly. The notice
+                    must include the date of instruction, the name of the organization or affiliation of each guest
+                    speaker and information stating that the parent has the right to request a copy of the law
+                    pertaining to such instruction. Parents have the right to excuse his or her child from all or part
+                    of the comprehensive sexual health and HIV prevention education by submitting a written request to
+                    the district. Those students whose parents do not submit a written request to excuse them will
+                    receive such instruction. The law also authorizes the district, without prior parental consent, to
+                    use anonymous, voluntary and confidential research and evaluation tools to measure student’s health
+                    behaviors and risks, including tests, questionnaires, and surveys containing age appropriate
+                    questions in grades 7 to 12 about the student’s attitudes concerning or practices relating to sex.
+                    The district must notify parents in writing before any such test, questionnaire, or survey is
+                    administered and provide them with an opportunity to review the materials. Parents have the right to
+                    excuse his or her child from such participation by submitting a written request to the school
+                    district.
+                    HEALTH INSTRUCTION/CONFLICTS WITH RELIGIOUS TRAINING AND BELIEFS (EC §51240): Upon written request
+                    of a parent, students shall be excused from part of any school instruction in health if it conflicts
+                    with the religious training and beliefs of a parent.
                     SCHOOL ATTENDANCE/ATTENDANCE ALTERNATIVES
                     ​
-                    California law (EC §48980(g)) requires all school boards to inform each student’s parent at the beginning of the school year of the various ways in which they may choose schools for their children to attend other than the ones assigned by school districts. Students who attend schools other than those assigned by the districts are referred to as “transfer students” throughout this notification. There is one process for choosing a school within the district which the parent lives (intradistrict transfer), and potentially three separate processes for selecting schools in other districts (interdistrict transfer). The general requirements and limitations of each process are described as follows:
+                    California law (EC §48980(g)) requires all school boards to inform each student’s parent at the
+                    beginning of the school year of the various ways in which they may choose schools for their children
+                    to attend other than the ones assigned by school districts. Students who attend schools other than
+                    those assigned by the districts are referred to as “transfer students” throughout this notification.
+                    There is one process for choosing a school within the district which the parent lives (intradistrict
+                    transfer), and potentially three separate processes for selecting schools in other districts
+                    (interdistrict transfer). The general requirements and limitations of each process are described as
+                    follows:
                     Choosing a School Within District in Which Parent Lives:
-                    The law (EC §35160.5(b)) requires the school board of each district to establish a policy that allows parents to choose the schools their children will attend, regardless of where the parent lives in the district. The law limits choice within a school district as follows:
+                    The law (EC §35160.5(b)) requires the school board of each district to establish a policy that
+                    allows parents to choose the schools their children will attend, regardless of where the parent
+                    lives in the district. The law limits choice within a school district as follows:
 
-                        Students who live in the attendance area of a school must be given priority to attend that school over students who do not live in the school’s attendance area.
-                        In cases in which there are more requests to attend a school than there are openings, the selection process must be “random and unbiased,” which generally means students must be selected through a lottery process rather than on a first-come, first-served basis. A district cannot use a student’s academic or athletic performance as a reason to accept or reject a transfer.
-                        Each district must decide the number of openings at each school which can be filled by transfer students. Each district also has the authority to keep appropriate racial and ethnic balances among its schools, meaning that a district can deny a transfer request if it would upset this balance or would leave the district out of compliance with a court-ordered or voluntary desegregation program.
-                        Each district may adopt a school selection policy that takes into consideration special circumstances that might be harmful or dangerous to a particular pupil, whether the sibling of the pupil is already in attendance at the school, and/or whether the pupil’s parent is employed at the school.
-                        If a transfer is denied, a parent does not have an automatic right to appeal the decision. A district may, however, voluntarily decide to put in place a process for parents to appeal a decision.
+                    Students who live in the attendance area of a school must be given priority to attend that school
+                    over students who do not live in the school’s attendance area.
+                    In cases in which there are more requests to attend a school than there are openings, the selection
+                    process must be “random and unbiased,” which generally means students must be selected through a
+                    lottery process rather than on a first-come, first-served basis. A district cannot use a student’s
+                    academic or athletic performance as a reason to accept or reject a transfer.
+                    Each district must decide the number of openings at each school which can be filled by transfer
+                    students. Each district also has the authority to keep appropriate racial and ethnic balances among
+                    its schools, meaning that a district can deny a transfer request if it would upset this balance or
+                    would leave the district out of compliance with a court-ordered or voluntary desegregation program.
+                    Each district may adopt a school selection policy that takes into consideration special
+                    circumstances that might be harmful or dangerous to a particular pupil, whether the sibling of the
+                    pupil is already in attendance at the school, and/or whether the pupil’s parent is employed at the
+                    school.
+                    If a transfer is denied, a parent does not have an automatic right to appeal the decision. A
+                    district may, however, voluntarily decide to put in place a process for parents to appeal a
+                    decision.
 
-                    
+
                     Choosing a School Outside District in Which Parent Lives:
-                    Parents have three different options for choosing a school outside the district in which they live.  The three options are:
-                    Option 1: Districts of Choice (EC §§48300 through 48315): The law allows, but does not require, each school district to become a “district of choice” – that is, a district that accepts transfer students from outside the district under the terms of the referenced Education Code sections. If the school board of a district decides to become a “district of choice” it must determine the number of students it is willing to accept in this category each year and accept all pupils who apply to transfer until the school district is at maximum capacity. The school district of choice shall ensure that pupils admitted under this article are selected through an unbiased process that prohibits consideration of factors such as academic or athletic performance, physical conditions, or proficiency in English. If the district chooses not to become a “district of choice,” a parent may not request a transfer under these provisions. Other provisions of the “district of choice” option include:
+                    Parents have three different options for choosing a school outside the district in which they live.
+                    The three options are:
+                    Option 1: Districts of Choice (EC §§48300 through 48315): The law allows, but does not require, each
+                    school district to become a “district of choice” – that is, a district that accepts transfer
+                    students from outside the district under the terms of the referenced Education Code sections. If the
+                    school board of a district decides to become a “district of choice” it must determine the number of
+                    students it is willing to accept in this category each year and accept all pupils who apply to
+                    transfer until the school district is at maximum capacity. The school district of choice shall
+                    ensure that pupils admitted under this article are selected through an unbiased process that
+                    prohibits consideration of factors such as academic or athletic performance, physical conditions, or
+                    proficiency in English. If the district chooses not to become a “district of choice,” a parent may
+                    not request a transfer under these provisions. Other provisions of the “district of choice” option
+                    include:
 
-                        Either the district a student would transfer to or the district a student would transfer from may deny a transfer if it will negatively affect the racial and ethnic balance of the district, or a court-ordered or voluntary desegregation plan. A district of choice cannot deny a transfer request on the basis that the costs to provide services exceeds the revenue received, but it may reject a request if doing so would require the creation of a new program. However, the district of choice may not deny the transfer of any special needs student, including an individual with exceptional needs, or an English Learner student even if the cost to educate the student exceeds the revenue received or the creation of a new program is required. The district a student would be leaving may also limit the total number of students transferring out of the district each year to a specified percentage of its total enrollment, depending on the size of the district.
-                        Communications to parents by a school district of choice shall be factually accurate and shall not target students based upon academic ability, athletic performance, or other personal characteristics.
-                        The district of choice must post transfer application information on its website, including any applicable forms, the timeline for a transfer, and an explanation of the selection process.
-                        All communications from a school district of choice regarding transfer opportunities must be available in all languages for which translations are required in the school district of residence under EC §48985.
-                        No student who currently attends a school or lives within the attendance area of a school can be forced out of that school to make room for a student transferring under these provisions.
-                        Entrance priority must be given as follows:
-                            Siblings of students already attending school in the “district of choice” must be given first priority.
-                            Pupils eligible for free or reduced-price meals must be given second priority.
-                            Children of military personnel must be given third priority.
+                    Either the district a student would transfer to or the district a student would transfer from may
+                    deny a transfer if it will negatively affect the racial and ethnic balance of the district, or a
+                    court-ordered or voluntary desegregation plan. A district of choice cannot deny a transfer request
+                    on the basis that the costs to provide services exceeds the revenue received, but it may reject a
+                    request if doing so would require the creation of a new program. However, the district of choice may
+                    not deny the transfer of any special needs student, including an individual with exceptional needs,
+                    or an English Learner student even if the cost to educate the student exceeds the revenue received
+                    or the creation of a new program is required. The district a student would be leaving may also limit
+                    the total number of students transferring out of the district each year to a specified percentage of
+                    its total enrollment, depending on the size of the district.
+                    Communications to parents by a school district of choice shall be factually accurate and shall not
+                    target students based upon academic ability, athletic performance, or other personal
+                    characteristics.
+                    The district of choice must post transfer application information on its website, including any
+                    applicable forms, the timeline for a transfer, and an explanation of the selection process.
+                    All communications from a school district of choice regarding transfer opportunities must be
+                    available in all languages for which translations are required in the school district of residence
+                    under EC §48985.
+                    No student who currently attends a school or lives within the attendance area of a school can be
+                    forced out of that school to make room for a student transferring under these provisions.
+                    Entrance priority must be given as follows:
+                    Siblings of students already attending school in the “district of choice” must be given first
+                    priority.
+                    Pupils eligible for free or reduced-price meals must be given second priority.
+                    Children of military personnel must be given third priority.
 
-                        A parent may request transportation assistance within the boundaries of the “district of choice.” The district is required to provide transportation only to the extent it already does so.
-                        A school district in which an active military duty parent of a student resides shall not deny the transfer of that student to a school in any district, if the school district to which the parent of the student applies approves the application for transfer.
+                    A parent may request transportation assistance within the boundaries of the “district of choice.”
+                    The district is required to provide transportation only to the extent it already does so.
+                    A school district in which an active military duty parent of a student resides shall not deny the
+                    transfer of that student to a school in any district, if the school district to which the parent of
+                    the student applies approves the application for transfer.
 
-                    
-                    Option 2: Other Interdistrict Transfers (EC §46600 et seq.): The law allows two or more districts to enter into an agreement for the transfer of one or more students for a period of up to five years. New agreements may be entered into for additional periods of up to five years each. The agreement must specify the terms and conditions under which transfers are permitted. Districts of residence may not deny a transfer of a student whose parent is active duty military where the district of proposed enrollment approves the application, or for students who are the victim of an act of bullying unless the requested school is at maximum capacity. The law on interdistrict transfers also provides for the following:
 
-                        If either district denies a transfer request, a parent may appeal that decision to the county board of education. There are specified timelines in the law for filing an appeal and for the county board of education to make a decision.
+                    Option 2: Other Interdistrict Transfers (EC §46600 et seq.): The law allows two or more districts to
+                    enter into an agreement for the transfer of one or more students for a period of up to five years.
+                    New agreements may be entered into for additional periods of up to five years each. The agreement
+                    must specify the terms and conditions under which transfers are permitted. Districts of residence
+                    may not deny a transfer of a student whose parent is active duty military where the district of
+                    proposed enrollment approves the application, or for students who are the victim of an act of
+                    bullying unless the requested school is at maximum capacity. The law on interdistrict transfers also
+                    provides for the following:
 
-                    Option 3: Parental Employment in Lieu of Residency Transfers (EC §48204(b)):  If at least one parent of a student is physically employed in the boundaries of a school district other than the one in which they live for a minimum of 10 hours during the school week, the student may be considered a resident of the school district in which their parents work.  This code section does not require that a school district accept a student requesting a transfer on this basis, but a student may not be rejected on the basis of race, ethnicity, sex, parental income, academic achievement, or any other “arbitrary” consideration. Other provisions of EC §48204(b) include:
+                    If either district denies a transfer request, a parent may appeal that decision to the county board
+                    of education. There are specified timelines in the law for filing an appeal and for the county board
+                    of education to make a decision.
 
-                        Either the district in which the parent lives or the district in which the parent works may prohibit the student’s transfer if it negatively impacts a desegregation plan.
-                        The district in which the parent works may reject a transfer if it determines that the cost of educating the student would be more than the amount of government funds the district would receive for educating the student. 
-                        There are set limits (based on total enrollment) on the net numbers of students that may transfer out of a district under this law, unless the district approves a greater number of transfers.
-                        There is no required appeal process for a transfer that is denied.  However, the district that declines to admit a student must provide in writing to the parent the specific reasons for denying the transfer.
+                    Option 3: Parental Employment in Lieu of Residency Transfers (EC §48204(b)): If at least one parent
+                    of a student is physically employed in the boundaries of a school district other than the one in
+                    which they live for a minimum of 10 hours during the school week, the student may be considered a
+                    resident of the school district in which their parents work. This code section does not require that
+                    a school district accept a student requesting a transfer on this basis, but a student may not be
+                    rejected on the basis of race, ethnicity, sex, parental income, academic achievement, or any other
+                    “arbitrary” consideration. Other provisions of EC §48204(b) include:
+
+                    Either the district in which the parent lives or the district in which the parent works may prohibit
+                    the student’s transfer if it negatively impacts a desegregation plan.
+                    The district in which the parent works may reject a transfer if it determines that the cost of
+                    educating the student would be more than the amount of government funds the district would receive
+                    for educating the student.
+                    There are set limits (based on total enrollment) on the net numbers of students that may transfer
+                    out of a district under this law, unless the district approves a greater number of transfers.
+                    There is no required appeal process for a transfer that is denied. However, the district that
+                    declines to admit a student must provide in writing to the parent the specific reasons for denying
+                    the transfer.
 
                     ​Open Enrollment Act (EC §48350 et seq.)
-                    Whenever a student is attending a district school on the Open Enrollment List, as identified by the Superintendent of Public Instruction, the student may apply to transfer to another school within or outside of the district, if the school to which they are transferring has a higher Academic Performance Index. Districts with a school on the List must notify the parents at that school on or before the first day of the school year of their option to transfer to another public school. Information regarding the application process and applicable deadlines can be obtained from the district office.
-                    
-                    This summary provides an overview of the laws applicable to school attendance for each alternative. Additional information is available upon request.
-                    NOTICE OF ALTERNATIVE SCHOOLS (EC §58501): State law authorizes all school districts to provide for alternative schools. Education Code section 58500 defines an alternative school as a school or separate class group within a school that is operated in a manner designed to:
-                    (1) Maximize the opportunity for students to develop the positive values of self-reliance, initiative, kindness, spontaneity, resourcefulness, courage, creativity, responsibility, and joy.
-                    (2) Recognize that the best learning takes place when the student learns because of his/her desire to learn.
-                    (3) Maintain a learning situation maximizing student self-motivation and encouraging the student in his/her own time to follow his/her own interests.  These interests may result in whole or in part from a presentation by his/her teachers of choices of learning projects.
-                    (4) Maximize the opportunity for teachers, parents and students to cooperatively develop the learning process and its subject matter. This opportunity shall be a continuous, permanent process.
-                    (5) Maximize the opportunity for the students, teachers, and parents to continuously react to the changing world, including but not limited to the community in which the school is located.
-                    In the event any parent, student, or teacher is interested in further information concerning alternative schools, the county superintendent of schools, the administrative office of this district, and the principal’s office in each attendance area shall have copies of the law available for your information. This law particularly authorizes interested persons to request that the governing board of the district to establish alternative school programs.
-                    GRADE REDUCTION/LOSS OF ACADEMIC CREDIT (EC §48980(i)): No student shall have his/her grade reduced or lose academic credit for any excused absence pursuant to EC §48205 if missed assignments/tests that can reasonably be provided are satisfactorily completed within a reasonable period of time. 
-                    ABSENCES FOR CONFIDENTIAL MEDICAL SERVICES (EC §46010.1):  Students in grades 7-12 and their parents are notified that the law permits schools to excuse students for the purpose of obtaining confidential medical services without parental consent. District policy regarding excusing such absences is available upon request.
-                    ABSENCE FOR RELIGIOUS INSTRUCTION (EC §46014): Districts may allow pupils with parent consent to be excused to participate in religious exercises/instruction.
-                    NOTICE OF MINIMUM DAYS AND PUPIL-FREE STAFF DEVELOPMENT DAYS (EC §48980(c)): The district is required to annually notify parents of its schedule(s) of minimum days and student-free staff development days at the beginning of the year or as early as possible, but no later than one month prior to the scheduled minimum or student-free day. (See calendar at this link.)
+                    Whenever a student is attending a district school on the Open Enrollment List, as identified by the
+                    Superintendent of Public Instruction, the student may apply to transfer to another school within or
+                    outside of the district, if the school to which they are transferring has a higher Academic
+                    Performance Index. Districts with a school on the List must notify the parents at that school on or
+                    before the first day of the school year of their option to transfer to another public school.
+                    Information regarding the application process and applicable deadlines can be obtained from the
+                    district office.
+
+                    This summary provides an overview of the laws applicable to school attendance for each alternative.
+                    Additional information is available upon request.
+                    NOTICE OF ALTERNATIVE SCHOOLS (EC §58501): State law authorizes all school districts to provide for
+                    alternative schools. Education Code section 58500 defines an alternative school as a school or
+                    separate class group within a school that is operated in a manner designed to:
+                    (1) Maximize the opportunity for students to develop the positive values of self-reliance,
+                    initiative, kindness, spontaneity, resourcefulness, courage, creativity, responsibility, and joy.
+                    (2) Recognize that the best learning takes place when the student learns because of his/her desire
+                    to learn.
+                    (3) Maintain a learning situation maximizing student self-motivation and encouraging the student in
+                    his/her own time to follow his/her own interests. These interests may result in whole or in part
+                    from a presentation by his/her teachers of choices of learning projects.
+                    (4) Maximize the opportunity for teachers, parents and students to cooperatively develop the
+                    learning process and its subject matter. This opportunity shall be a continuous, permanent process.
+                    (5) Maximize the opportunity for the students, teachers, and parents to continuously react to the
+                    changing world, including but not limited to the community in which the school is located.
+                    In the event any parent, student, or teacher is interested in further information concerning
+                    alternative schools, the county superintendent of schools, the administrative office of this
+                    district, and the principal’s office in each attendance area shall have copies of the law available
+                    for your information. This law particularly authorizes interested persons to request that the
+                    governing board of the district to establish alternative school programs.
+                    GRADE REDUCTION/LOSS OF ACADEMIC CREDIT (EC §48980(i)): No student shall have his/her grade reduced
+                    or lose academic credit for any excused absence pursuant to EC §48205 if missed assignments/tests
+                    that can reasonably be provided are satisfactorily completed within a reasonable period of time.
+                    ABSENCES FOR CONFIDENTIAL MEDICAL SERVICES (EC §46010.1): Students in grades 7-12 and their parents
+                    are notified that the law permits schools to excuse students for the purpose of obtaining
+                    confidential medical services without parental consent. District policy regarding excusing such
+                    absences is available upon request.
+                    ABSENCE FOR RELIGIOUS INSTRUCTION (EC §46014): Districts may allow pupils with parent consent to be
+                    excused to participate in religious exercises/instruction.
+                    NOTICE OF MINIMUM DAYS AND PUPIL-FREE STAFF DEVELOPMENT DAYS (EC §48980(c)): The district is
+                    required to annually notify parents of its schedule(s) of minimum days and student-free staff
+                    development days at the beginning of the year or as early as possible, but no later than one month
+                    prior to the scheduled minimum or student-free day. (See calendar at this link.)
                     ​MISCELLANEOUS
                     ​
-                    NON-MANDATORY PROGRAMS FOR PARENTAL/PUPIL PARTICIPATION (EC §49091.18): Schools may not require a student or student’s family to submit to or participate in any assessment, analysis, evaluation, or monitoring of the quality or character of student home life, parental screening or testing, nonacademic home-based counseling program, parent training, or prescribed family educational service plan. 
-                    SEX EQUITY IN CAREER PLANNING (EC §221.5(d)): Parents shall be notified in advance of career counseling and course selection commencing with course selection in Grade 7, to promote sex equity and allow parents to participate in counseling sessions and decisions.
-                    SEXUAL HARASSMENT POLICY (EC §231.5; 5 CCR §4917): Each district is required to have adopted a written policy on sexual harassment, and shall provide a copy of such policy, as it pertains to students, with the annual notification. (See below.) Districts are also required to display such policies in a prominent location and include it in orientation for employees and students, and provide a copy of such policy to new and continuing students as part of any orientation program held on a quarterly, semester or summer session basis.
-                    DRUG FREE CAMPUS (Alcohol and Other Drug Use Prevention Education): Possession, use or sale of narcotics, alcohol, or other controlled substances is prohibited and strictly enforced at all school activities. Records will be forwarded to local law enforcement, and district sanctions will result from violations.
-                    RIGHT TO REFRAIN FROM HARMFUL USE OF ANIMALS (EC §32255 et seq.): Pupils may choose to refrain from participating in educational projects involving the dissection or otherwise harmful or destructive use of animals in accordance with the procedures set forth in EC § 32255.1,
+                    NON-MANDATORY PROGRAMS FOR PARENTAL/PUPIL PARTICIPATION (EC §49091.18): Schools may not require a
+                    student or student’s family to submit to or participate in any assessment, analysis, evaluation, or
+                    monitoring of the quality or character of student home life, parental screening or testing,
+                    nonacademic home-based counseling program, parent training, or prescribed family educational service
+                    plan.
+                    SEX EQUITY IN CAREER PLANNING (EC §221.5(d)): Parents shall be notified in advance of career
+                    counseling and course selection commencing with course selection in Grade 7, to promote sex equity
+                    and allow parents to participate in counseling sessions and decisions.
+                    SEXUAL HARASSMENT POLICY (EC §231.5; 5 CCR §4917): Each district is required to have adopted a
+                    written policy on sexual harassment, and shall provide a copy of such policy, as it pertains to
+                    students, with the annual notification. (See below.) Districts are also required to display such
+                    policies in a prominent location and include it in orientation for employees and students, and
+                    provide a copy of such policy to new and continuing students as part of any orientation program held
+                    on a quarterly, semester or summer session basis.
+                    DRUG FREE CAMPUS (Alcohol and Other Drug Use Prevention Education): Possession, use or sale of
+                    narcotics, alcohol, or other controlled substances is prohibited and strictly enforced at all school
+                    activities. Records will be forwarded to local law enforcement, and district sanctions will result
+                    from violations.
+                    RIGHT TO REFRAIN FROM HARMFUL USE OF ANIMALS (EC §32255 et seq.): Pupils may choose to refrain from
+                    participating in educational projects involving the dissection or otherwise harmful or destructive
+                    use of animals in accordance with the procedures set forth in EC § 32255.1,
                     EVERY STUDENT SUCCEEDS ACT (20 USC §6301 et seq.): Under ESSA, parents have the following rights:
 
-                        Information Regarding Professional Qualifications of Teachers, Paraprofessionals, and Aides: Upon request, parents have a right to information regarding the professional qualifications of their student’s classroom teachers, paraprofessionals, and aides. This includes whether the teacher meets the state qualifications and licensing criteria for the grades and subjects she/he teaches, whether the teacher is teaching under an emergency permit or other provisional status because of special circumstances, the teacher’s college major, whether she/he has any advanced degrees and the subject(s) of those degrees, and whether any instructional aides or paraprofessionals provide services to your child and, if so, their qualifications. The district shall also notify parents if their child has been assigned to or has been taught for 4 or more consecutive weeks by a teacher who does not meet applicable certification or licensure requirements at the grade level and subject area in which the teacher has been assigned.
-                        Information Regarding Individual Student Reports on Statewide Assessments: Upon request, parents have a right to information regarding any State or local policy mandating pupil assessments and the level of achievement of their student on every State and districtwide academic assessment administered to the student.
-                        Limited English Proficient Students: The Act requires prior notice be given to parents of English learners regarding limited English proficiency programs, including the reasons for the identification of the student as an English learner, the need of placement in a language instruction educational program, the student’s level of English proficiency, how such level was assessed, the methods of instruction used in the programs available, how the recommended program will meet the student’s needs, program performance, parent options to remove a student from a program and/or to decline initial enrollment, and expected rate of transition into classrooms not tailored for English learners.
+                    Information Regarding Professional Qualifications of Teachers, Paraprofessionals, and Aides: Upon
+                    request, parents have a right to information regarding the professional qualifications of their
+                    student’s classroom teachers, paraprofessionals, and aides. This includes whether the teacher meets
+                    the state qualifications and licensing criteria for the grades and subjects she/he teaches, whether
+                    the teacher is teaching under an emergency permit or other provisional status because of special
+                    circumstances, the teacher’s college major, whether she/he has any advanced degrees and the
+                    subject(s) of those degrees, and whether any instructional aides or paraprofessionals provide
+                    services to your child and, if so, their qualifications. The district shall also notify parents if
+                    their child has been assigned to or has been taught for 4 or more consecutive weeks by a teacher who
+                    does not meet applicable certification or licensure requirements at the grade level and subject area
+                    in which the teacher has been assigned.
+                    Information Regarding Individual Student Reports on Statewide Assessments: Upon request, parents
+                    have a right to information regarding any State or local policy mandating pupil assessments and the
+                    level of achievement of their student on every State and districtwide academic assessment
+                    administered to the student.
+                    Limited English Proficient Students: The Act requires prior notice be given to parents of English
+                    learners regarding limited English proficiency programs, including the reasons for the
+                    identification of the student as an English learner, the need of placement in a language instruction
+                    educational program, the student’s level of English proficiency, how such level was assessed, the
+                    methods of instruction used in the programs available, how the recommended program will meet the
+                    student’s needs, program performance, parent options to remove a student from a program and/or to
+                    decline initial enrollment, and expected rate of transition into classrooms not tailored for English
+                    learners.
 
-                    The information provided above is available upon request from your child’s school or the district office. Additional notices that may be required under the Every Student Succeeds Act shall be sent separately.
-                    UNIFORM COMPLAINT PROCEDURES (5 CCR §4622): The district is required to annually notify parents, pupils, employees, district and school advisory committees and other interested parties in writing of its required Uniform Complaint Procedures. (See below.)
-                    SCHOOL BUSES/PASSENGER SAFETY (EC §39831.5): Districts are required to provide safety regulations to all new students and students who have not previously been transported by school bus. 
-                    ​MEGAN’S LAW NOTIFICATION (PENAL CODE §290.4): Parents and members of the public have the right to review information regarding registered sex offenders at the main office of the local law enforcement agency for this school district.
+                    The information provided above is available upon request from your child’s school or the district
+                    office. Additional notices that may be required under the Every Student Succeeds Act shall be sent
+                    separately.
+                    UNIFORM COMPLAINT PROCEDURES (5 CCR §4622): The district is required to annually notify parents,
+                    pupils, employees, district and school advisory committees and other interested parties in writing
+                    of its required Uniform Complaint Procedures. (See below.)
+                    SCHOOL BUSES/PASSENGER SAFETY (EC §39831.5): Districts are required to provide safety regulations to
+                    all new students and students who have not previously been transported by school bus.
+                    ​MEGAN’S LAW NOTIFICATION (PENAL CODE §290.4): Parents and members of the public have the right to
+                    review information regarding registered sex offenders at the main office of the local law
+                    enforcement agency for this school district.
                     EXCUSED ABSENCES (EC §48205)
                     (a) Notwithstanding Section 48200, a pupil shall be excused from school when the absence is:
-                    (1) Due to the pupil’s illness, including an absence for the benefit of the pupil’s mental or behavioral health.
+                    (1) Due to the pupil’s illness, including an absence for the benefit of the pupil’s mental or
+                    behavioral health.
                     (2) Due to quarantine under the direction of a county/city health officer.
                     (3) For purposes of having medical, dental, optometrical, or chiropractic services rendered.
-                    (4) For purposes of attending the funeral services or grieving the death of either a member of the pupil’s immediate family, or of a person that is determined by the pupil’s parent or guardian to be in such close association with the pupil as to be considered the pupil’s immediate family, so long as the absence is not more than five days per incident.
-                    (5) For purposes of jury duty in the manner provided for by law. 
-                    (6) Due to the illness or medical appointment during school hours of a child of whom the pupil is the custodial parent, including absences to care for a sick child for which the school shall not require a note from a doctor.
-                    (7) For justifiable personal reasons, including, but not limited to, an attendance or appearance in court, attendance at a funeral service, observance of a holiday or ceremony of his or her religion, attendance at a religious retreat, attendance at an employment conference, or attendance at an educational conference on the legislative or judicial process offered by a nonprofit organization when the pupil's absence is requested in writing by the parent and approved by the principal or a designated representative pursuant to uniform standards established by the governing board of the school district.
-                    (8) For purposes of serving as a member of a precinct board for an election pursuant to section 12302 of the Elections Code.
-                    (9) For purposes of spending time with a member of the pupil’s immediate family, who is an active duty member of the uniformed services, as defined in section 49701, and has been called to duty for, is on leave from, or has immediately returned from, deployment. Absences granted pursuant to this paragraph shall be granted for a period of time to be determined at the discretion of the superintendent of the school district.
-                    (10) For purposes of attending the pupil’s naturalization ceremony to become a United States citizen.
+                    (4) For purposes of attending the funeral services or grieving the death of either a member of the
+                    pupil’s immediate family, or of a person that is determined by the pupil’s parent or guardian to be
+                    in such close association with the pupil as to be considered the pupil’s immediate family, so long
+                    as the absence is not more than five days per incident.
+                    (5) For purposes of jury duty in the manner provided for by law.
+                    (6) Due to the illness or medical appointment during school hours of a child of whom the pupil is
+                    the custodial parent, including absences to care for a sick child for which the school shall not
+                    require a note from a doctor.
+                    (7) For justifiable personal reasons, including, but not limited to, an attendance or appearance in
+                    court, attendance at a funeral service, observance of a holiday or ceremony of his or her religion,
+                    attendance at a religious retreat, attendance at an employment conference, or attendance at an
+                    educational conference on the legislative or judicial process offered by a nonprofit organization
+                    when the pupil's absence is requested in writing by the parent and approved by the principal or a
+                    designated representative pursuant to uniform standards established by the governing board of the
+                    school district.
+                    (8) For purposes of serving as a member of a precinct board for an election pursuant to section
+                    12302 of the Elections Code.
+                    (9) For purposes of spending time with a member of the pupil’s immediate family, who is an active
+                    duty member of the uniformed services, as defined in section 49701, and has been called to duty for,
+                    is on leave from, or has immediately returned from, deployment. Absences granted pursuant to this
+                    paragraph shall be granted for a period of time to be determined at the discretion of the
+                    superintendent of the school district.
+                    (10) For purposes of attending the pupil’s naturalization ceremony to become a United States
+                    citizen.
                     (11) For purposes of participating in a cultural ceremony or event.
-                    (12)(A) For purposes of a middle school or high school pupil engaging in a civic or political event, as provided in subparagraph (B), provided that the pupil notifies the school ahead of the absence.
-                    (12)(B)(i) A middle school or high school pupil who is absent pursuant to subparagraph (A) is required to be excused for only one schoolday-long absence per school year.
-                    (12)(B)(ii) A middle school or high school pupil who is absent pursuant to subparagraph (A) may be permitted additional excused absences in the discretion of a school administrator, as described in subdivision (c) of Section 48260.
-                    (13)(A) For any of the purposes described in clauses (i) to (iii), inclusive, if an immediate family member of the pupil, or a person that is determined by the pupil’s parent or guardian to be in such close association with the pupil as to be considered the pupil’s immediate family, has died, so long as the absence is not more than three days per incident.
+                    (12)(A) For purposes of a middle school or high school pupil engaging in a civic or political event,
+                    as provided in subparagraph (B), provided that the pupil notifies the school ahead of the absence.
+                    (12)(B)(i) A middle school or high school pupil who is absent pursuant to subparagraph (A) is
+                    required to be excused for only one schoolday-long absence per school year.
+                    (12)(B)(ii) A middle school or high school pupil who is absent pursuant to subparagraph (A) may be
+                    permitted additional excused absences in the discretion of a school administrator, as described in
+                    subdivision (c) of Section 48260.
+                    (13)(A) For any of the purposes described in clauses (i) to (iii), inclusive, if an immediate family
+                    member of the pupil, or a person that is determined by the pupil’s parent or guardian to be in such
+                    close association with the pupil as to be considered the pupil’s immediate family, has died, so long
+                    as the absence is not more than three days per incident.
                     (i) To access services from a victim services organization or agency.
                     (ii) To access grief support services.
-                    (iii) To participate in safety planning or to take other actions to increase the safety of the pupil or an immediate family member of the pupil, or a person that is determined by the pupil’s parent or guardian to be in such close association with the pupil as to be considered the pupil’s immediate family, including, but not limited to, temporary or permanent relocation.
-                    (B) Any absences beyond three days for the reasons described in subparagraph (A) shall be subject to the discretion of the school administrator, or their designee, pursuant to Section 48260.
+                    (iii) To participate in safety planning or to take other actions to increase the safety of the pupil
+                    or an immediate family member of the pupil, or a person that is determined by the pupil’s parent or
+                    guardian to be in such close association with the pupil as to be considered the pupil’s immediate
+                    family, including, but not limited to, temporary or permanent relocation.
+                    (B) Any absences beyond three days for the reasons described in subparagraph (A) shall be subject to
+                    the discretion of the school administrator, or their designee, pursuant to Section 48260.
                     (14) Due to the pupil’s participation in military entrance processing.
-                    (15) Authorized at the discretion of a school administrator, as described in subdivision (c) of Section 48260.
-                    (b) A pupil absent from school pursuant to this section shall be allowed to complete all assignments and tests missed during the absence that can be reasonably provided and, upon satisfactory completion within a reasonable period of time, shall be given full credit for those assignments and tests. The teacher of the class from which a pupil is absent shall determine which tests and assignments shall be reasonably equivalent to, but not necessarily identical to, the tests and assignments that the pupil missed during the absence.
-                    (c) For purposes of this section, attendance at religious retreats shall not exceed one schoolday per semester.
-                    (d) Absences pursuant to this section are deemed to be absences in computing average daily attendance and shall not generate state apportionment payments.
+                    (15) Authorized at the discretion of a school administrator, as described in subdivision (c) of
+                    Section 48260.
+                    (b) A pupil absent from school pursuant to this section shall be allowed to complete all assignments
+                    and tests missed during the absence that can be reasonably provided and, upon satisfactory
+                    completion within a reasonable period of time, shall be given full credit for those assignments and
+                    tests. The teacher of the class from which a pupil is absent shall determine which tests and
+                    assignments shall be reasonably equivalent to, but not necessarily identical to, the tests and
+                    assignments that the pupil missed during the absence.
+                    (c) For purposes of this section, attendance at religious retreats shall not exceed one schoolday
+                    per semester.
+                    (d) Absences pursuant to this section are deemed to be absences in computing average daily
+                    attendance and shall not generate state apportionment payments.
                     (e) For purposes of this section, the following definitions apply:
-                    (1) A “civic or political event” includes, but is not limited to, voting, poll working, strikes, public commenting, candidate speeches, political or civic forums, and town halls.
-                    (2) “Cultural” means relating to the practices, habits, beliefs, and traditions of a certain group of people.
-                    (3) "Immediate family,” as used in this section, means the parent or guardian, brother or sister, grandparent, or any other relative living in the household of the pupil.
-                    (4) “Victim services organization or agency” has the same meaning as defined in subdivision (j) of Section 12945.8 of the Government Code.
+                    (1) A “civic or political event” includes, but is not limited to, voting, poll working, strikes,
+                    public commenting, candidate speeches, political or civic forums, and town halls.
+                    (2) “Cultural” means relating to the practices, habits, beliefs, and traditions of a certain group
+                    of people.
+                    (3) "Immediate family,” as used in this section, means the parent or guardian, brother or sister,
+                    grandparent, or any other relative living in the household of the pupil.
+                    (4) “Victim services organization or agency” has the same meaning as defined in subdivision (j) of
+                    Section 12945.8 of the Government Code.
                     ​INVESTING FOR FUTURE EDUCATION (EC §48980(d)):
-                    Parents are advised of the importance of investing for higher education for their children and of considering appropriate investment options, including, but not limited to, United States savings bonds.
-                    
-                    COMPLAINTS CONCERNING DEFICIENCIES RELATED TO INSTRUCTIONAL MATERIALS, ETC. (EC §35186): A Uniform Complaint process is available to help identify and resolve deficiencies related to instructional materials, emergency or urgent facility conditions that pose a threat to the health and safety of pupils or staff, and teacher vacancy or misassignment. Notice of the complaint process and location at which to obtain a complaint form should be posted in the classrooms.
-                    
-                    SCHOOL ACCREDITATION (EC §35178.4): Districts are required to notify each parent of a pupil in a school that has lost its accreditation status and the potential consequences of the school’s loss of status, in writing or by posting the information on the school district’s or school’s Internet Website, or by any combination of these methods.
-                    
-                    PUPIL FEES (EC §49010 et seq.): The district is required to establish policies concerning the provision of a free education to pupils. The district is also required to establish policies for filing a complaint of noncompliance under this section using the Uniform Complaint Procedures. Notice of the district’s fee policies and complaint process shall be provided to pupils, parents, and employees on an annual basis.
-                    
-                    LOCAL CONTROL AND ACCOUNTABILITY PLAN (EC §§52059.5-52077): The district is required to adopt a three-year Local Control and Accountability Plan (LCAP) and to update the LCAP on or before July 1 of each subsequent year. The LCAP is required to identify annual goals, specific actions geared toward implementing those goals, and must measure progress for student subgroups across multiple performance indicators based on eight priorities set by the State. The priorities must be aligned to the district’s spending plan. The LCAP must be approved before the annual district budget can be adopted. Once the budget and LCAP are adopted at the local level, the plan will be reviewed by the county superintendent to ensure alignment of projected spending toward goals and services. The following are the State priorities: 
-                    
-                    1.        Providing all students access to fully credentialed teachers, instructional materials that align with state standards, and safe facilities;
-                    2.        Implementation of and student access to state academic content and performance standards;
-                    3.        Parent involvement and participation and family engagement;
-                    4.        Improving student achievement and outcomes along multiple measures;
-                    5.        Supporting student engagement;
-                    6.        Highlighting school climate and connectedness;
-                    7.        Ensuring all students have access to a broad course of study;
-                    8.        Measuring other important student outcomes related to required areas of study;
-                    9.        Coordinating instruction for expelled students; and
-                    10.      Coordinating services for foster children.
-                    
-                    The Board of Education is required to establish a parent advisory committee (PAC) and English learner parent advisory committee (ELPAC) to provide advice to the Board of Education and the superintendent regarding the LCAP. (ELPACs are required if enrollment in the school district includes at least 15% English learners and the district enrolls at least 50 pupils who are English learners. Districts are not required to establish a new ELPAC if an English learner parent committee has already been established). 
-                    
-                    Each district is required to consult with its teachers, principals, administrators, other school personnel, local bargaining units, parents, its special education local plan area administrator(s), and pupils in developing the LCAP. As part of this consultation process, districts must present their proposed plans to the PAC and ELPAC. The advisory committees can review and comment on the proposed plan. Districts must respond in writing to the comments of the PAC and ELPAC. Districts are also required to notify members of the public that they may submit written comments regarding the specific actions and expenditures proposed in the LCAP.
-                    
-                    Districts must hold at least two public hearings to discuss and adopt (or update) their LCAPs. The district must first hold at least one hearing to solicit recommendations and comments from the public regarding expenditures proposed in the plan, and then adopt (or officially update) the LCAP at a subsequent hearing.
-                    
-                    Districts are required to post prominently on the homepage of the school district’s website the LCAP approved by the Board of Education and any updates, revisions or addenda to the LCAP as well as post or link to the LCAP submitted by any charter school authorized by the district, and establish policies for filing a complaint of noncompliance under EC §52075 using the Uniform Complaint Procedures. Information regarding the requirements for a Local Control and Accountability Plan and the complaint process shall be provided to pupils, parents, and employees on an annual basis.
-                    
-                    The Age Discrimination Act (42 USC § 6101 et seq.): The Age Discrimination Act prohibits discrimination in programs or activities receiving federal and/or state financial assistance.
-                    
-                    The Boy Scouts of America Equal Access Act (34 CFR § 108.6): The Boy Scouts of America Equal Access Act requires public schools to provide equal access to the use of school property to the Boy Scouts and other designated youth groups.
+                    Parents are advised of the importance of investing for higher education for their children and of
+                    considering appropriate investment options, including, but not limited to, United States savings
+                    bonds.
+
+                    COMPLAINTS CONCERNING DEFICIENCIES RELATED TO INSTRUCTIONAL MATERIALS, ETC. (EC §35186): A Uniform
+                    Complaint process is available to help identify and resolve deficiencies related to instructional
+                    materials, emergency or urgent facility conditions that pose a threat to the health and safety of
+                    pupils or staff, and teacher vacancy or misassignment. Notice of the complaint process and location
+                    at which to obtain a complaint form should be posted in the classrooms.
+
+                    SCHOOL ACCREDITATION (EC §35178.4): Districts are required to notify each parent of a pupil in a
+                    school that has lost its accreditation status and the potential consequences of the school’s loss of
+                    status, in writing or by posting the information on the school district’s or school’s Internet
+                    Website, or by any combination of these methods.
+
+                    PUPIL FEES (EC §49010 et seq.): The district is required to establish policies concerning the
+                    provision of a free education to pupils. The district is also required to establish policies for
+                    filing a complaint of noncompliance under this section using the Uniform Complaint Procedures.
+                    Notice of the district’s fee policies and complaint process shall be provided to pupils, parents,
+                    and employees on an annual basis.
+
+                    LOCAL CONTROL AND ACCOUNTABILITY PLAN (EC §§52059.5-52077): The district is required to adopt a
+                    three-year Local Control and Accountability Plan (LCAP) and to update the LCAP on or before July 1
+                    of each subsequent year. The LCAP is required to identify annual goals, specific actions geared
+                    toward implementing those goals, and must measure progress for student subgroups across multiple
+                    performance indicators based on eight priorities set by the State. The priorities must be aligned to
+                    the district’s spending plan. The LCAP must be approved before the annual district budget can be
+                    adopted. Once the budget and LCAP are adopted at the local level, the plan will be reviewed by the
+                    county superintendent to ensure alignment of projected spending toward goals and services. The
+                    following are the State priorities:
+
+                    1. Providing all students access to fully credentialed teachers, instructional materials that align
+                    with state standards, and safe facilities;
+                    2. Implementation of and student access to state academic content and performance standards;
+                    3. Parent involvement and participation and family engagement;
+                    4. Improving student achievement and outcomes along multiple measures;
+                    5. Supporting student engagement;
+                    6. Highlighting school climate and connectedness;
+                    7. Ensuring all students have access to a broad course of study;
+                    8. Measuring other important student outcomes related to required areas of study;
+                    9. Coordinating instruction for expelled students; and
+                    10. Coordinating services for foster children.
+
+                    The Board of Education is required to establish a parent advisory committee (PAC) and English
+                    learner parent advisory committee (ELPAC) to provide advice to the Board of Education and the
+                    superintendent regarding the LCAP. (ELPACs are required if enrollment in the school district
+                    includes at least 15% English learners and the district enrolls at least 50 pupils who are English
+                    learners. Districts are not required to establish a new ELPAC if an English learner parent committee
+                    has already been established).
+
+                    Each district is required to consult with its teachers, principals, administrators, other school
+                    personnel, local bargaining units, parents, its special education local plan area administrator(s),
+                    and pupils in developing the LCAP. As part of this consultation process, districts must present
+                    their proposed plans to the PAC and ELPAC. The advisory committees can review and comment on the
+                    proposed plan. Districts must respond in writing to the comments of the PAC and ELPAC. Districts are
+                    also required to notify members of the public that they may submit written comments regarding the
+                    specific actions and expenditures proposed in the LCAP.
+
+                    Districts must hold at least two public hearings to discuss and adopt (or update) their LCAPs. The
+                    district must first hold at least one hearing to solicit recommendations and comments from the
+                    public regarding expenditures proposed in the plan, and then adopt (or officially update) the LCAP
+                    at a subsequent hearing.
+
+                    Districts are required to post prominently on the homepage of the school district’s website the LCAP
+                    approved by the Board of Education and any updates, revisions or addenda to the LCAP as well as post
+                    or link to the LCAP submitted by any charter school authorized by the district, and establish
+                    policies for filing a complaint of noncompliance under EC §52075 using the Uniform Complaint
+                    Procedures. Information regarding the requirements for a Local Control and Accountability Plan and
+                    the complaint process shall be provided to pupils, parents, and employees on an annual basis.
+
+                    The Age Discrimination Act (42 USC § 6101 et seq.): The Age Discrimination Act prohibits
+                    discrimination in programs or activities receiving federal and/or state financial assistance.
+
+                    The Boy Scouts of America Equal Access Act (34 CFR § 108.6): The Boy Scouts of America Equal Access
+                    Act requires public schools to provide equal access to the use of school property to the Boy Scouts
+                    and other designated youth groups.
                     Download the complete notice in english
                     Download a new acknowledgement form english
-                        
+
                     download the complete notice in spanish
                     download a new acknowledgement form spanish
                     Attachments for 2025 - 2026
                     Pesticide Notice English
                     Sexual Harassment Policy English
                     Firearm Safety Notice English
-                        
+
                     Pesticide Notice Spanish
                     Sexual Harassment Policy Spanish
                     Firearm Safety Notice Spanish
-                        
+
                     Uniform Complaint Procedure English
                     Visitor Policy English
                     CTE & College admission english
-                        
+
                     Uniform Complaint Procedure Spanish
                     Visitor Policy Spanish
                     Cte & college admission spanish
                     Link to 25-26 District Calendar
-                    We are continually in process of updating all sections of the Geyserville Unified School District website. We are committed to making the site legible and accessible for all users. We appreciate your patience as we continue to improve and update the site on a daily basis. If any portion of this website remains inaccessible to you, please notify us at info@gusd.com using the subject line "Website Help" or by calling (707) 857-3592. We look forward to meeting your expectations and needs, under the guidance and parameters of current, applicable laws, codes and regulations.
+                    We are continually in process of updating all sections of the Geyserville Unified School District
+                    website. We are committed to making the site legible and accessible for all users. We appreciate
+                    your patience as we continue to improve and update the site on a daily basis. If any portion of this
+                    website remains inaccessible to you, please notify us at info@gusd.com using the subject line
+                    "Website Help" or by calling (707) 857-3592. We look forward to meeting your expectations and needs,
+                    under the guidance and parameters of current, applicable laws, codes and regulations.
 
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<!-- Footer -->
-<footer class="gusd-padding-16">
-<hr>
-
-<!-- Open external links in new tab -->
-<script type="text/javascript">
-//<![CDATA[
-jQuery(document).ready(function($) {
-$('a').each(function() { if(this.href && (this.href.indexOf(window.location.host) == -1 || this.href.endsWith("pdf"))) { this.target = "_blank"; }});
-});
-//]]>
-</script></div>
-  <div class="clear"></div>
-<a href="/"><strong>GUSD.com</strong></a>&nbsp;— <a href="/">Geyserville Unified School District</a>&nbsp; — 1300 Moody Lane, Geyserville, CA 95441<br> 
-Phone:&nbsp;+1(707)857-3592 | Email:&nbsp;<a href="mailto:info@gusd.com">info@gusd.com</a><br>
-©2026 All&nbsp;rights&nbsp;reserved</footer>
-<!-- End page content -->
-</div>
-<script>
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" gusd-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " gusd-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
-
-</body>
-</html>
+    <div id="footerDiv"></div>

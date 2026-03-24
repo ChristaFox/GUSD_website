@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Geyserville USD</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/gusd.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="/javascript/gusd.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/dw_tooltip_c.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        /*     dw_Tooltip.defaultProps = {
+              wrapFn: dw_Tooltip.wrapImageOverText // or dw_Tooltip.wrapTextOverImage
+            } */
+
+        /* dw_Tooltip.content_vars = {
+              L1: {
+                caption: 'Locate Sales Order Screen',
+                img: 'img/toc_icon_50x50.png',
+                txt: 'Some Text',
+                w: 400 // width of tooltip
+              }
+            } */
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#headerDiv").load("header.html");
+            $("#footerDiv").load("footer.html");
+        });  
+    </script>
+</head>
+
+<body id="top">
+    <div id="headerDiv"></div>
+    <header class="bgimg gusd-display-container gusd-grayscale gusd-center">
+        <div class="gusd-display-bottomleft gusd-center gusd-padding-large gusd-hide-small">
+            <span><img src="/images/white horse.png" alt="Geyserville Unified logo and text."></span>
+        </div>
+        <div class="gusd-display-middle gusd-center">
+            <span>GEYSERVILLE USD</span>
+        </div>
+        <div class="font-awesome-div gusd-display-bottomright gusd-padding-large">
+            <a href="#" title="Facebook" class="fa fa-facebook gusd-button gusd-block"></a>
+            <a href="#" title="Instagram" class="fa fa-instagram gusd-button gusd-block"></a>
+            <a href="#" title="YouTube" class="fa fa-youtube gusd-button gusd-block"></a>
+        </div>
+    </header>
+    <div class="gusd-container">
+        <div class="gusd-content">
+
+            <h1 id="bell"><span class="gusd-tag gusd-wide">BELL SCHEDULE</span></h1>
+            <h1 id="gnta_emp"><span class="gusd-tag gusd-wide">EMPLOYEES</span></h1>
+            <h1 id="stu"><span class="gusd-tag gusd-wide">STUDENT HANDBOOK</span></h1>
+            <h1 id="gnta_tran"><span class="gusd-tag gusd-wide">TRANSPORTATION</span></h1>
+        </div>
+    </div>
+
+    <div id="footerDiv"></div>

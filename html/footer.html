@@ -1,0 +1,35 @@
+<!-- Footer -->
+<footer class="gusd-padding-16">
+    <hr>
+    <div class="clear"></div>
+    <a href="/"><strong>GUSD.com</strong></a>&nbsp;— <a href="/">Geyserville Unified School District</a>&nbsp; —
+    1300
+    Moody Lane, Geyserville, CA 95441<br>
+    Phone:&nbsp;+1(707)857-3592 | Email:&nbsp;<a href="mailto:info@gusd.com">info@gusd.com</a><br>
+    ©2026 All&nbsp;rights&nbsp;reserved
+</footer>
+<!-- End page content -->
+</div>
+</div> <!-- End content -->
+</div> <!-- End container -->
+
+<script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" gusd-dark-grey", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " gusd-dark-grey";
+    }
+    document.getElementById("myLink").click();
+</script>
+</body>
+
+</html>
