@@ -1013,7 +1013,7 @@ hr {
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
-  font-size: 5%;
+  font-size: 15%;
 }
 
 .fa {
