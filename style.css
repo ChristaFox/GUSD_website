@@ -1015,10 +1015,8 @@ hr {
 }
 
 .fa {
-  padding: 15%;
-  margin-bottom: 15%;
-  margin-right: 15%;
-  width: 25%;
+  padding: 1%;
+  width: 5%;
   /* text-align: center; */
   text-decoration: overline;
   color: #f9f9f9 !important;
