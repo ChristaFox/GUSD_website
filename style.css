@@ -1035,7 +1035,7 @@ hr {
 .navbar a {
   text-align: center;
   text-decoration: dotted;
-  color: #000 !important;
+/*  color: #000 !important; */
 }
 
 .dropdown {
@@ -1044,6 +1044,7 @@ hr {
 
 .dropdown .dropbtn {
   font-size: 75%;
+  color: #b9b59f !important;
   border: none;
   outline: none;
   padding: 2% 3%;
@@ -1294,19 +1295,19 @@ img {
 .gusd-dropdown-hover:first-child,
 .gusd-dropdown-click:hover {
   background-color: #ccc;
-  color: #000
+  /* color: #000 */
 }
 
 .gusd-dropdown-hover:hover>.gusd-button:first-child,
 .gusd-dropdown-click:hover>.gusd-button:first-child {
   background-color: #ccc;
-  color: #000
+  /* color: #000 */
 }
 
 .gusd-dropdown-content {
   cursor: auto;
-  color: #000;
-  background-color: #fff;
+  /* color: #000; */
+  /* background-color: #fff; */
   display: none;
   position: absolute;
   min-width: 160px;
@@ -2337,7 +2338,7 @@ img {
 }
 
 .gusd-button:hover {
-  color: #000 !important;
+  /* color: #000 !important; */
   background-color: #ccc !important
 }
 
@@ -2361,13 +2362,13 @@ img {
 /* Colors */
 .gusd-amber,
 .gusd-hover-amber:hover {
-  color: #000 !important;
+  /* color: #000 !important; */
   background-color: #ffc107 !important
 }
 
 .gusd-aqua,
 .gusd-hover-aqua:hover {
-  color: #000 !important;
+  /* color: #000 !important; */
   background-color: #00ffff !important
 }
 
@@ -2379,7 +2380,7 @@ img {
 
 .gusd-light-blue,
 .gusd-hover-light-blue:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #87CEEB !important
 }
 
@@ -2391,7 +2392,7 @@ img {
 
 .gusd-cyan,
 .gusd-hover-cyan:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #00bcd4 !important
 }
 
@@ -2411,7 +2412,7 @@ img {
 
 .gusd-light-green,
 .gusd-hover-light-green:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #8bc34a !important
 }
 
@@ -2423,19 +2424,19 @@ img {
 
 .gusd-khaki,
 .gusd-hover-khaki:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #f0e68c !important
 }
 
 .gusd-lime,
 .gusd-hover-lime:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #cddc39 !important
 }
 
 .gusd-orange,
 .gusd-hover-orange:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ff9800 !important
 }
 
@@ -2471,7 +2472,7 @@ img {
 
 .gusd-sand,
 .gusd-hover-sand:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #fdf5e6 !important
 }
 
@@ -2483,13 +2484,13 @@ img {
 
 .gusd-yellow,
 .gusd-hover-yellow:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ffeb3b !important
 }
 
 .gusd-white,
 .gusd-hover-white:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #fff !important
 }
 
@@ -2505,7 +2506,7 @@ img {
 .gusd-hover-grey:hover,
 .gusd-gray,
 .gusd-hover-gray:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #9e9e9e !important
 }
 
@@ -2513,7 +2514,7 @@ img {
 .gusd-hover-light-grey:hover,
 .gusd-light-gray,
 .gusd-hover-light-gray:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #f1f1f1 !important
 }
 
@@ -2557,7 +2558,7 @@ gusd-hover-cobalt:hover {
 
 .gusd-paper,
 .gusd-hover-paper:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #f8f9fa !important
 }
 
@@ -2579,7 +2580,7 @@ gusd-hover-cobalt:hover {
 }
 
 .gusd-note {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #fff599 !important
 }
 
@@ -2589,7 +2590,7 @@ gusd-hover-cobalt:hover {
 }
 
 .gusd-warning {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ffb305 !important
 }
 
@@ -2600,25 +2601,25 @@ gusd-hover-cobalt:hover {
 
 .gusd-pale-red,
 .gusd-hover-pale-red:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ffdddd !important
 }
 
 .gusd-pale-green,
 .gusd-hover-pale-green:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ddffdd !important
 }
 
 .gusd-pale-yellow,
 .gusd-hover-pale-yellow:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ffffcc !important
 }
 
 .gusd-pale-blue,
 .gusd-hover-pale-blue:hover {
-  color: #000 !important;
+/*  color: #000 !important; */
   background-color: #ddffff !important
 }
 
