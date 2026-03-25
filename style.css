@@ -1012,6 +1012,8 @@ hr {
 .font-awesome-div {
   display: flex !important;
   flex-direction: row !important;
+  justify-content: center !important;
+  font-size: 5%;
 }
 
 .fa {
