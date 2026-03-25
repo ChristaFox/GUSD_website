@@ -209,13 +209,15 @@
   text-align: left;
   padding-left: 110px;
 
-  &:before {
-    color: #888;
-    display: inline-block;
-    font-family: FontAwesome;
-    width: 22px;
-  }
 }
+
+.directory &:before {
+  color: #888;
+  display: inline-block;
+  font-family: FontAwesome;
+  width: 22px;
+}
+
 
 .slideshow {
   list-style: none !important;
@@ -1012,19 +1014,16 @@ hr {
 .font-awesome-div {
   display: flex !important;
   flex-direction: row !important;
-  justify-content: center !important;
+  justify-content: space-between !important;
   font-size: 15%;
 }
 
 .fa {
   padding: 1%;
-  width: 5%;
   /* text-align: center; */
-  text-decoration: overline;
   color: #f9f9f9 !important;
   font-weight: bolder;
-  font-size: 4em !important;
-  gap: 5%;
+  font-size: 3em !important;
 }
 
 .navbar {
